@@ -39,25 +39,30 @@
 
 -(void)initWithNotificationCenter:(NSNotification *) notification {
     NSString *obj = [notification object];
-    
-    obj = [obj stringByReplacingOccurrencesOfString:@"hybrid://updateNavigationBar?param=" withString:@""];
-    
-    NSDictionary *dict = [self.class __jsonObjectWithString:obj];
-    
-    if ([dict isKindOfClass:[NSDictionary class]]) {
-        NSDictionary *dataDict = dict[@"data"];
+    //设置标题
+    if([obj hasPrefix:@"hybrid://updateNavigationBar?param="]) {
         
-        if ([dataDict isKindOfClass:[NSDictionary class]]) {
-            NSDictionary *titleDict = dataDict[@"title"];
+        obj = [obj stringByReplacingOccurrencesOfString:@"hybrid://updateNavigationBar?param=" withString:@""];
+        
+        NSDictionary *dict = [self.class __jsonObjectWithString:obj];
+        
+        if ([dict isKindOfClass:[NSDictionary class]]) {
+            NSDictionary *dataDict = dict[@"data"];
             
-            
-            if ([titleDict isKindOfClass:[NSDictionary class]]) {
-                NSString *title = titleDict[@"title"];
-                self.title = title;
+            if ([dataDict isKindOfClass:[NSDictionary class]]) {
+                NSDictionary *titleDict = dataDict[@"title"];
+                
+                
+                if ([titleDict isKindOfClass:[NSDictionary class]]) {
+                    NSString *title = titleDict[@"title"];
+                    self.title = title;
+                }
+                
             }
-            
         }
     }
+    
+    
     
     
     
