@@ -44,18 +44,21 @@
     
     NSDictionary *dict = [self.class __jsonObjectWithString:obj];
     
-    NSDictionary *dataDict = dict[@"data"];
-    
-    if ([dataDict isKindOfClass:[NSDictionary class]]) {
-        NSDictionary *titleDict = dataDict[@"title"];
+    if ([dict isKindOfClass:[NSDictionary class]]) {
+        NSDictionary *dataDict = dict[@"data"];
         
-        
-        if ([titleDict isKindOfClass:[NSDictionary class]]) {
-            NSString *title = titleDict[@"title"];
-            self.title = title;
+        if ([dataDict isKindOfClass:[NSDictionary class]]) {
+            NSDictionary *titleDict = dataDict[@"title"];
+            
+            
+            if ([titleDict isKindOfClass:[NSDictionary class]]) {
+                NSString *title = titleDict[@"title"];
+                self.title = title;
+            }
+            
         }
-
     }
+    
     
     
 }
