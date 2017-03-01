@@ -82,10 +82,12 @@ static NSString *URLProtocolHandledKey = @"URLProtocolHandledKey";
         request.URL = [NSURL URLWithString:urlString];
     }
     
-   
-    if ([urlString hasPrefix:@"hybrid"]) {
-        NSString *urlString1 = [urlString stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSString *urlString1 = [urlString stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+
+    if ([urlString hasPrefix:@"hybrid://forward"]) {
         [MDSRouter openingPath:urlString1];
+    }else{
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"1" object:urlString1];
     }
     
     return request;

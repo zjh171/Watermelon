@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Watermelon/watermelon/WMURLProtocol.m"
-            timestampString = "510051805.464671"
+            timestampString = "510054155.985766"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
             landmarkName = "@implementation WMURLProtocol"
             landmarkType = "3">
          </BreakpointContent>
@@ -41,13 +41,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Watermelon/WMWebViewController.m"
-            timestampString = "510052524.16866"
+            filePath = "Watermelon/WMViewController.m"
+            timestampString = "510055309.717878"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-initWithNotificationCenter:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

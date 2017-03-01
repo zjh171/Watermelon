@@ -20,27 +20,39 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PGa-wd-y2B">
-                    <rect key="frame" x="84" y="100" width="184" height="30"/>
+                    <rect key="frame" x="43" y="60" width="184" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.070998350592528237" blue="0.20434365556888945" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="跳转到native"/>
                     <connections>
                         <action selector="buttonClicked1:" destination="-1" eventType="touchUpInside" id="JQP-Qc-JCa"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g8J-cQ-Fr5">
-                    <rect key="frame" x="94" y="226" width="184" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g8J-cQ-Fr5">
+                    <rect key="frame" x="44" y="98" width="184" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.057047560800361552" blue="0.18667499819323685" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="跳转到包含H5的native"/>
                     <connections>
                         <action selector="buttonClicked2:" destination="-1" eventType="touchUpInside" id="7tD-HI-fTh"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ScP-Rx-V31">
-                    <rect key="frame" x="84" y="151" width="184" height="30"/>
+                    <rect key="frame" x="43" y="136" width="184" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.057047560800361552" blue="0.18667499819323685" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="跳转到本地Html"/>
                     <connections>
                         <action selector="buttonClicked3:" destination="-1" eventType="touchUpInside" id="5AE-mA-2ce"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Nwr-Ym-7rX">
+                    <rect key="frame" x="44" y="174" width="184" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.057047560800000001" blue="0.1866749982" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="设置title"/>
+                    <connections>
+                        <action selector="buttonClicked4:" destination="-1" eventType="touchUpInside" id="J7s-eS-OaL"/>
                     </connections>
                 </button>
             </subviews>

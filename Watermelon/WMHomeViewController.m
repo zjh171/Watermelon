@@ -19,14 +19,6 @@
 @implementation WMHomeViewController
 
 
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(initWithNotificationCenter) name:@"1" object:nil];
-    }
-    return self;
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -42,10 +34,6 @@
  //   [self.view addSubview:self.webView];
 }
 
-
--(void)initWithNotificationCenter {
-    
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -67,16 +55,16 @@
 }
 
 - (IBAction)buttonClicked3:(id)sender {
-    
 //    NSURL *baseURL = [NSURL URLWithString:@""];
 
-    
     [MDSRouter openingPath:@"hybrid://webview?url=file:///index1.html"];
-
-    
-    
 }
 
+- (IBAction)buttonClicked4:(id)sender {
+    
+    [MDSRouter openingPath:@"hybrid://webview?url=file:///index2.html"];
+
+}
 
 -(UIWebView *)webView{
     if (!_webView) {

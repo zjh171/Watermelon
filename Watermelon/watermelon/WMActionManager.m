@@ -26,7 +26,6 @@ static WMActionManager *actionManager = nil;
     
     
     
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"1" object:nil];
 
     
     

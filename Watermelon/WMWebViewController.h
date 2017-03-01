@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WMViewController.h"
 
-@interface WMWebViewController : UIViewController
+@interface WMWebViewController : WMViewController
 @property(nonatomic,copy)NSString *url;
 @end
