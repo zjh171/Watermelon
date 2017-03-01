@@ -60,7 +60,6 @@
                 NSString *routeDetail = parmDict[@"topage"];
                 [[XYRouter sharedInstance] openURLString:routeDetail];
             }
-            
 
         }
         

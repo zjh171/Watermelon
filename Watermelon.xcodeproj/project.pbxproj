@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		A6E42D741E667D5E004B2600 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E42D731E667D5E004B2600 /* WebKit.framework */; };
 		DEE953D21E6678A5004CB2F8 /* WMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953D11E6678A5004CB2F8 /* WMWebViewController.m */; };
+		DEE953DB1E66BA0A004CB2F8 /* index1.html in Resources */ = {isa = PBXBuildFile; fileRef = DEE953D71E66BA0A004CB2F8 /* index1.html */; };
+		DEE953DC1E66BA0A004CB2F8 /* index1.css in Resources */ = {isa = PBXBuildFile; fileRef = DEE953D81E66BA0A004CB2F8 /* index1.css */; };
+		DEE953DD1E66BA0A004CB2F8 /* index1.js in Resources */ = {isa = PBXBuildFile; fileRef = DEE953D91E66BA0A004CB2F8 /* index1.js */; };
+		DEE953DE1E66BA0A004CB2F8 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = DEE953DA1E66BA0A004CB2F8 /* image.png */; };
+		DEE953E11E66BD84004CB2F8 /* WMActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953E01E66BD84004CB2F8 /* WMActionManager.m */; };
 		DEEE03C61E6563CD00A0FAE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03C51E6563CD00A0FAE5 /* main.m */; };
 		DEEE03C91E6563CD00A0FAE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03C81E6563CD00A0FAE5 /* AppDelegate.m */; };
 		DEEE03CC1E6563CD00A0FAE5 /* WMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03CB1E6563CD00A0FAE5 /* WMHomeViewController.m */; };
@@ -28,6 +33,12 @@
 		A6E42D731E667D5E004B2600 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		DEE953D01E6678A5004CB2F8 /* WMWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWebViewController.h; sourceTree = "<group>"; };
 		DEE953D11E6678A5004CB2F8 /* WMWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWebViewController.m; sourceTree = "<group>"; };
+		DEE953D71E66BA0A004CB2F8 /* index1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index1.html; sourceTree = "<group>"; };
+		DEE953D81E66BA0A004CB2F8 /* index1.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = index1.css; sourceTree = "<group>"; };
+		DEE953D91E66BA0A004CB2F8 /* index1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index1.js; sourceTree = "<group>"; };
+		DEE953DA1E66BA0A004CB2F8 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		DEE953DF1E66BD84004CB2F8 /* WMActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMActionManager.h; sourceTree = "<group>"; };
+		DEE953E01E66BD84004CB2F8 /* WMActionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMActionManager.m; sourceTree = "<group>"; };
 		DEEE03C11E6563CD00A0FAE5 /* Watermelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEE03C51E6563CD00A0FAE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEEE03C71E6563CD00A0FAE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,16 +103,20 @@
 		DEEE03C31E6563CD00A0FAE5 /* Watermelon */ = {
 			isa = PBXGroup;
 			children = (
+				DEE953D71E66BA0A004CB2F8 /* index1.html */,
+				DEE953D81E66BA0A004CB2F8 /* index1.css */,
+				DEE953D91E66BA0A004CB2F8 /* index1.js */,
+				DEE953DA1E66BA0A004CB2F8 /* image.png */,
 				DEEE03DB1E65644F00A0FAE5 /* watermelon */,
 				DEEE03C71E6563CD00A0FAE5 /* AppDelegate.h */,
 				DEEE03C81E6563CD00A0FAE5 /* AppDelegate.m */,
 				DEEE03CA1E6563CD00A0FAE5 /* WMHomeViewController.h */,
 				DEEE03CB1E6563CD00A0FAE5 /* WMHomeViewController.m */,
+				DEEE03EE1E65867100A0FAE5 /* WMHomeViewController.xib */,
 				DEEE03D01E6563CD00A0FAE5 /* Assets.xcassets */,
 				DEEE03D21E6563CD00A0FAE5 /* LaunchScreen.storyboard */,
 				DEEE03D51E6563CD00A0FAE5 /* Info.plist */,
 				DEEE03C41E6563CD00A0FAE5 /* Supporting Files */,
-				DEEE03EE1E65867100A0FAE5 /* WMHomeViewController.xib */,
 				DEEE03F01E65887400A0FAE5 /* WMH5ViewController.h */,
 				DEEE03F11E65887400A0FAE5 /* WMH5ViewController.m */,
 				DEEE03F21E65887400A0FAE5 /* WMH5ViewController.xib */,
@@ -131,6 +146,8 @@
 				DEEE03E71E65841800A0FAE5 /* XYRouter.m */,
 				DEEE03DC1E65648900A0FAE5 /* WMURLProtocol.h */,
 				DEEE03DD1E65648900A0FAE5 /* WMURLProtocol.m */,
+				DEE953DF1E66BD84004CB2F8 /* WMActionManager.h */,
+				DEE953E01E66BD84004CB2F8 /* WMActionManager.m */,
 			);
 			path = watermelon;
 			sourceTree = "<group>";
@@ -194,10 +211,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEEE03D41E6563CD00A0FAE5 /* LaunchScreen.storyboard in Resources */,
+				DEE953DC1E66BA0A004CB2F8 /* index1.css in Resources */,
 				DEEE03EF1E65867100A0FAE5 /* WMHomeViewController.xib in Resources */,
 				DEEE03D11E6563CD00A0FAE5 /* Assets.xcassets in Resources */,
 				DEEE03F41E65887400A0FAE5 /* WMH5ViewController.xib in Resources */,
+				DEE953DD1E66BA0A004CB2F8 /* index1.js in Resources */,
 				DEEE03E91E65841800A0FAE5 /* MDSRouting.json in Resources */,
+				DEE953DB1E66BA0A004CB2F8 /* index1.html in Resources */,
+				DEE953DE1E66BA0A004CB2F8 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +238,7 @@
 				DEEE03EA1E65841800A0FAE5 /* MDSRouter.m in Sources */,
 				DEE953D21E6678A5004CB2F8 /* WMWebViewController.m in Sources */,
 				DEEE03F31E65887400A0FAE5 /* WMH5ViewController.m in Sources */,
+				DEE953E11E66BD84004CB2F8 /* WMActionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

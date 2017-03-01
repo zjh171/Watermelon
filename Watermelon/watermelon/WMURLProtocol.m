@@ -7,36 +7,25 @@
 //
 
 #import "WMURLProtocol.h"
-
+#import "WMActionManager.h"
+#import "MDSRouter.h"
 
 static NSString *URLProtocolHandledKey = @"URLProtocolHandledKey";
 
-@interface WMURLProtocol ()
+@interface WMURLProtocol ()<NSURLSessionDelegate>{
 
-@property (nonatomic, strong) NSURLConnection *connection;
+}
+
+@property (nonatomic, strong) NSURLSession *session;
 
 @end
 
 @implementation WMURLProtocol
 
-
-
 + (void)start {
 
     [NSURLProtocol registerClass:self];
 }
-
-
-/**
-+ (void)setDelegate:(id<CustomHTTPProtocolDelegate>)newValue {
-    @synchronized (self) {
-        sDelegate = newValue;
-    }
-}
-
-
-*/
-
 
 + (BOOL)canInitWithRequest:(NSURLRequest *)request {
     
@@ -44,9 +33,6 @@ static NSString *URLProtocolHandledKey = @"URLProtocolHandledKey";
     if ([NSURLProtocol propertyForKey:URLProtocolHandledKey inRequest:request]) {
         return NO;
     }
-    
-    NSString *scheme = [[request URL] scheme];
-    NSDictionary *dict = [request allHTTPHeaderFields];
     
     return YES;
 }
@@ -66,16 +52,23 @@ static NSString *URLProtocolHandledKey = @"URLProtocolHandledKey";
 - (void)startLoading {
     NSMutableURLRequest * request = [self.request mutableCopy];
     
-    // 标记当前传入的Request已经被拦截处理过，
-    //防止在最开始又继续拦截处理
+    // 标记当前传入的Request已经被拦截处理过，防止在最开始又继续拦截处理
     [NSURLProtocol setProperty:@(YES) forKey:URLProtocolHandledKey inRequest:request];
     
-    self.connection = [NSURLConnection connectionWithRequest:[self changeSinaToSohu:request] delegate:self];
+    //使用NSURLSession继续把重定向的request发送出去
+    NSURLSessionConfiguration *config = [NSURLSessionConfiguration ephemeralSessionConfiguration];
+    NSOperationQueue *mainQueue = [NSOperationQueue mainQueue];
+    
+    NSURLSession *session = [NSURLSession sessionWithConfiguration:config delegate:self delegateQueue:mainQueue];
+    
+    NSURLSessionDataTask *task = [session dataTaskWithRequest:[self changeSinaToSohu:request]];
+    
+    [task resume];
 }
 
 - (void)stopLoading {
-    [self.connection cancel];
-    self.connection = nil;
+//    [self.connection cancel];
+//    self.connection = nil;
 }
 
 
@@ -89,9 +82,10 @@ static NSString *URLProtocolHandledKey = @"URLProtocolHandledKey";
         request.URL = [NSURL URLWithString:urlString];
     }
     
+   
     if ([urlString hasPrefix:@"hybrid"]) {
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"1" object:nil];
-        
+        NSString *urlString1 = [urlString stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+        [MDSRouter openingPath:urlString1];
     }
     
     return request;
@@ -100,7 +94,7 @@ static NSString *URLProtocolHandledKey = @"URLProtocolHandledKey";
 
 
 
-
+/*
 - (void) connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
     [self.client URLProtocol:self didReceiveResponse:response cacheStoragePolicy:NSURLCacheStorageNotAllowed];
 }
@@ -115,6 +109,28 @@ static NSString *URLProtocolHandledKey = @"URLProtocolHandledKey";
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
     [self.client URLProtocol:self didFailWithError:error];
+}
+
+*/
+
+-(void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task didCompleteWithError:(NSError *)error {
+    if (error) {
+        [self.client URLProtocol:self didFailWithError:error];
+    } else {
+        [self.client URLProtocolDidFinishLoading:self];
+    }
+}
+-(void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveResponse:(NSURLResponse *)response completionHandler:(void (^)(NSURLSessionResponseDisposition))completionHandler {
+    [self.client URLProtocol:self didReceiveResponse:response cacheStoragePolicy:NSURLCacheStorageNotAllowed];
+    
+    completionHandler(NSURLSessionResponseAllow);
+}
+-(void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveData:(NSData *)data {
+    [self.client URLProtocol:self didLoadData:data];
+}
+- (void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask willCacheResponse:(NSCachedURLResponse *)proposedResponse completionHandler:(void (^)(NSCachedURLResponse *cachedResponse))completionHandler
+{
+    completionHandler(proposedResponse);
 }
 
 

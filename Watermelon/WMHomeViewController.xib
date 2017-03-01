@@ -27,12 +27,20 @@
                         <action selector="buttonClicked1:" destination="-1" eventType="touchUpInside" id="JQP-Qc-JCa"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ScP-Rx-V31">
-                    <rect key="frame" x="84" y="216" width="184" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g8J-cQ-Fr5">
+                    <rect key="frame" x="94" y="226" width="184" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="跳转到包含H5的native"/>
                     <connections>
-                        <action selector="buttonClicked2:" destination="-1" eventType="touchUpInside" id="0d1-YF-9fQ"/>
+                        <action selector="buttonClicked2:" destination="-1" eventType="touchUpInside" id="7tD-HI-fTh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ScP-Rx-V31">
+                    <rect key="frame" x="84" y="151" width="184" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="跳转到本地Html"/>
+                    <connections>
+                        <action selector="buttonClicked3:" destination="-1" eventType="touchUpInside" id="5AE-mA-2ce"/>
                     </connections>
                 </button>
             </subviews>

@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    if ([[[UIDevice currentDevice] systemVersion] floatValue]>=8.0)
+/*    if ([[[UIDevice currentDevice] systemVersion] floatValue]>=8.0)
     {
         WKWebView *webView = [[WKWebView alloc] initWithFrame:self.view.bounds];
         webView.UIDelegate = self;
@@ -25,14 +25,24 @@
         [self.view addSubview:webView];
     }else
     {
-        UIWebView * webView = [[UIWebView alloc]initWithFrame:self.view.bounds];
-        [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.url]]];
-        webView.delegate=self;
-        [self.view addSubview:webView];
+        */
+    UIWebView * webView = [[UIWebView alloc]initWithFrame:self.view.bounds];
+    webView.delegate=self;
+    [self.view addSubview:webView];
+
+    if ([self.url hasPrefix:@"file"]) {
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"index1" ofType:@"html"];
+        NSURL *url = [NSURL fileURLWithPath:path];
+        NSURLRequest* request = [NSURLRequest requestWithURL:url];//创建NSURLRequest
+        [webView loadRequest:request];//加载
+
+    }else{
+        
+        NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:self.url]];
+        [webView loadRequest:request];
     }
-    
-    
-    
+
+
     
     // Do any additional setup after loading the view.
 }
@@ -51,5 +61,25 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
+
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+    
+    return YES;
+}
+
+- (void)webViewDidStartLoad:(UIWebView *)webView {
+    
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
+    
+}
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
+    
+}
+
+
 
 @end

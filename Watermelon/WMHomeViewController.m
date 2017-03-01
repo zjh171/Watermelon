@@ -23,7 +23,7 @@
 {
     self = [super init];
     if (self) {
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(initWithNotificationCenter:) name:@"1" object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(initWithNotificationCenter) name:@"1" object:nil];
     }
     return self;
 }
@@ -62,10 +62,20 @@
 - (IBAction)buttonClicked2:(id)sender {
     
 //    [MDSRouter openingPath:@"hybrid://forward?param=\{\"topage\":\"kyson?url=https:\/\/www.baidu.com\",\"animate\":\"push\"\}"];
-    [MDSRouter openingPath:@"hybrid://webview?url=https:www.baidu.com"];
+    [MDSRouter openingPath:@"hybrid://webview?url=https://www.baidu.com"];
 
 }
 
+- (IBAction)buttonClicked3:(id)sender {
+    
+//    NSURL *baseURL = [NSURL URLWithString:@""];
+
+    
+    [MDSRouter openingPath:@"hybrid://webview?url=file:///index.html/"];
+
+    
+    
+}
 
 
 -(UIWebView *)webView{
