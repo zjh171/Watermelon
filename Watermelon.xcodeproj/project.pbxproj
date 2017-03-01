@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEE953D21E6678A5004CB2F8 /* WMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953D11E6678A5004CB2F8 /* WMWebViewController.m */; };
+		DEEE03C61E6563CD00A0FAE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03C51E6563CD00A0FAE5 /* main.m */; };
+		DEEE03C91E6563CD00A0FAE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03C81E6563CD00A0FAE5 /* AppDelegate.m */; };
+		DEEE03CC1E6563CD00A0FAE5 /* WMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03CB1E6563CD00A0FAE5 /* WMHomeViewController.m */; };
+		DEEE03D11E6563CD00A0FAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEE03D01E6563CD00A0FAE5 /* Assets.xcassets */; };
+		DEEE03D41E6563CD00A0FAE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEE03D21E6563CD00A0FAE5 /* LaunchScreen.storyboard */; };
+		DEEE03DE1E65648900A0FAE5 /* WMURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03DD1E65648900A0FAE5 /* WMURLProtocol.m */; };
+		DEEE03E81E65841800A0FAE5 /* NSString+JKURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03E21E65841800A0FAE5 /* NSString+JKURLEncode.m */; };
+		DEEE03E91E65841800A0FAE5 /* MDSRouting.json in Resources */ = {isa = PBXBuildFile; fileRef = DEEE03E31E65841800A0FAE5 /* MDSRouting.json */; };
+		DEEE03EA1E65841800A0FAE5 /* MDSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03E51E65841800A0FAE5 /* MDSRouter.m */; };
+		DEEE03EB1E65841800A0FAE5 /* XYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03E71E65841800A0FAE5 /* XYRouter.m */; };
+		DEEE03EF1E65867100A0FAE5 /* WMHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEE03EE1E65867100A0FAE5 /* WMHomeViewController.xib */; };
+		DEEE03F31E65887400A0FAE5 /* WMH5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03F11E65887400A0FAE5 /* WMH5ViewController.m */; };
+		DEEE03F41E65887400A0FAE5 /* WMH5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEE03F21E65887400A0FAE5 /* WMH5ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEE953D01E6678A5004CB2F8 /* WMWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWebViewController.h; sourceTree = "<group>"; };
+		DEE953D11E6678A5004CB2F8 /* WMWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWebViewController.m; sourceTree = "<group>"; };
+		DEEE03C11E6563CD00A0FAE5 /* Watermelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEE03C51E6563CD00A0FAE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEEE03C71E6563CD00A0FAE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEEE03C81E6563CD00A0FAE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEEE03CA1E6563CD00A0FAE5 /* WMHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMHomeViewController.h; sourceTree = "<group>"; };
+		DEEE03CB1E6563CD00A0FAE5 /* WMHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMHomeViewController.m; sourceTree = "<group>"; };
+		DEEE03D01E6563CD00A0FAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEEE03D31E6563CD00A0FAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEEE03D51E6563CD00A0FAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEEE03DC1E65648900A0FAE5 /* WMURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMURLProtocol.h; sourceTree = "<group>"; };
+		DEEE03DD1E65648900A0FAE5 /* WMURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMURLProtocol.m; sourceTree = "<group>"; };
+		DEEE03E11E65841800A0FAE5 /* NSString+JKURLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKURLEncode.h"; sourceTree = "<group>"; };
+		DEEE03E21E65841800A0FAE5 /* NSString+JKURLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKURLEncode.m"; sourceTree = "<group>"; };
+		DEEE03E31E65841800A0FAE5 /* MDSRouting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MDSRouting.json; sourceTree = "<group>"; };
+		DEEE03E41E65841800A0FAE5 /* MDSRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSRouter.h; sourceTree = "<group>"; };
+		DEEE03E51E65841800A0FAE5 /* MDSRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSRouter.m; sourceTree = "<group>"; };
+		DEEE03E61E65841800A0FAE5 /* XYRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYRouter.h; sourceTree = "<group>"; };
+		DEEE03E71E65841800A0FAE5 /* XYRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYRouter.m; sourceTree = "<group>"; };
+		DEEE03EE1E65867100A0FAE5 /* WMHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMHomeViewController.xib; sourceTree = "<group>"; };
+		DEEE03F01E65887400A0FAE5 /* WMH5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMH5ViewController.h; sourceTree = "<group>"; };
+		DEEE03F11E65887400A0FAE5 /* WMH5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMH5ViewController.m; sourceTree = "<group>"; };
+		DEEE03F21E65887400A0FAE5 /* WMH5ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMH5ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEEE03BE1E6563CD00A0FAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEEE03B81E6563CD00A0FAE5 = {
+			isa = PBXGroup;
+			children = (
+				DEEE03C31E6563CD00A0FAE5 /* Watermelon */,
+				DEEE03C21E6563CD00A0FAE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEEE03C21E6563CD00A0FAE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEEE03C11E6563CD00A0FAE5 /* Watermelon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEEE03C31E6563CD00A0FAE5 /* Watermelon */ = {
+			isa = PBXGroup;
+			children = (
+				DEEE03DB1E65644F00A0FAE5 /* watermelon */,
+				DEEE03C71E6563CD00A0FAE5 /* AppDelegate.h */,
+				DEEE03C81E6563CD00A0FAE5 /* AppDelegate.m */,
+				DEEE03CA1E6563CD00A0FAE5 /* WMHomeViewController.h */,
+				DEEE03CB1E6563CD00A0FAE5 /* WMHomeViewController.m */,
+				DEEE03D01E6563CD00A0FAE5 /* Assets.xcassets */,
+				DEEE03D21E6563CD00A0FAE5 /* LaunchScreen.storyboard */,
+				DEEE03D51E6563CD00A0FAE5 /* Info.plist */,
+				DEEE03C41E6563CD00A0FAE5 /* Supporting Files */,
+				DEEE03EE1E65867100A0FAE5 /* WMHomeViewController.xib */,
+				DEEE03F01E65887400A0FAE5 /* WMH5ViewController.h */,
+				DEEE03F11E65887400A0FAE5 /* WMH5ViewController.m */,
+				DEEE03F21E65887400A0FAE5 /* WMH5ViewController.xib */,
+				DEE953D01E6678A5004CB2F8 /* WMWebViewController.h */,
+				DEE953D11E6678A5004CB2F8 /* WMWebViewController.m */,
+			);
+			path = Watermelon;
+			sourceTree = "<group>";
+		};
+		DEEE03C41E6563CD00A0FAE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEEE03C51E6563CD00A0FAE5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEEE03DB1E65644F00A0FAE5 /* watermelon */ = {
+			isa = PBXGroup;
+			children = (
+				DEEE03E11E65841800A0FAE5 /* NSString+JKURLEncode.h */,
+				DEEE03E21E65841800A0FAE5 /* NSString+JKURLEncode.m */,
+				DEEE03E31E65841800A0FAE5 /* MDSRouting.json */,
+				DEEE03E41E65841800A0FAE5 /* MDSRouter.h */,
+				DEEE03E51E65841800A0FAE5 /* MDSRouter.m */,
+				DEEE03E61E65841800A0FAE5 /* XYRouter.h */,
+				DEEE03E71E65841800A0FAE5 /* XYRouter.m */,
+				DEEE03DC1E65648900A0FAE5 /* WMURLProtocol.h */,
+				DEEE03DD1E65648900A0FAE5 /* WMURLProtocol.m */,
+			);
+			path = watermelon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEEE03C01E6563CD00A0FAE5 /* Watermelon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEE03D81E6563CD00A0FAE5 /* Build configuration list for PBXNativeTarget "Watermelon" */;
+			buildPhases = (
+				DEEE03BD1E6563CD00A0FAE5 /* Sources */,
+				DEEE03BE1E6563CD00A0FAE5 /* Frameworks */,
+				DEEE03BF1E6563CD00A0FAE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watermelon;
+			productName = Watermelon;
+			productReference = DEEE03C11E6563CD00A0FAE5 /* Watermelon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEEE03B91E6563CD00A0FAE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kyson;
+				TargetAttributes = {
+					DEEE03C01E6563CD00A0FAE5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DEEE03BC1E6563CD00A0FAE5 /* Build configuration list for PBXProject "Watermelon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEEE03B81E6563CD00A0FAE5;
+			productRefGroup = DEEE03C21E6563CD00A0FAE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEEE03C01E6563CD00A0FAE5 /* Watermelon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEEE03BF1E6563CD00A0FAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEE03D41E6563CD00A0FAE5 /* LaunchScreen.storyboard in Resources */,
+				DEEE03EF1E65867100A0FAE5 /* WMHomeViewController.xib in Resources */,
+				DEEE03D11E6563CD00A0FAE5 /* Assets.xcassets in Resources */,
+				DEEE03F41E65887400A0FAE5 /* WMH5ViewController.xib in Resources */,
+				DEEE03E91E65841800A0FAE5 /* MDSRouting.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEEE03BD1E6563CD00A0FAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEE03CC1E6563CD00A0FAE5 /* WMHomeViewController.m in Sources */,
+				DEEE03E81E65841800A0FAE5 /* NSString+JKURLEncode.m in Sources */,
+				DEEE03C91E6563CD00A0FAE5 /* AppDelegate.m in Sources */,
+				DEEE03EB1E65841800A0FAE5 /* XYRouter.m in Sources */,
+				DEEE03C61E6563CD00A0FAE5 /* main.m in Sources */,
+				DEEE03DE1E65648900A0FAE5 /* WMURLProtocol.m in Sources */,
+				DEEE03EA1E65841800A0FAE5 /* MDSRouter.m in Sources */,
+				DEE953D21E6678A5004CB2F8 /* WMWebViewController.m in Sources */,
+				DEEE03F31E65887400A0FAE5 /* WMH5ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEEE03D21E6563CD00A0FAE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEE03D31E6563CD00A0FAE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEEE03D61E6563CD00A0FAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEEE03D71E6563CD00A0FAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEEE03D91E6563CD00A0FAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Watermelon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medishare.Watermelon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEEE03DA1E6563CD00A0FAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Watermelon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medishare.Watermelon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEEE03BC1E6563CD00A0FAE5 /* Build configuration list for PBXProject "Watermelon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEE03D61E6563CD00A0FAE5 /* Debug */,
+				DEEE03D71E6563CD00A0FAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEEE03D81E6563CD00A0FAE5 /* Build configuration list for PBXNativeTarget "Watermelon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEE03D91E6563CD00A0FAE5 /* Debug */,
+				DEEE03DA1E6563CD00A0FAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEEE03B91E6563CD00A0FAE5 /* Project object */;
+}
