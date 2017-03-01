@@ -71,7 +71,7 @@
 //    NSURL *baseURL = [NSURL URLWithString:@""];
 
     
-    [MDSRouter openingPath:@"hybrid://webview?url=file:///index.html/"];
+    [MDSRouter openingPath:@"hybrid://webview?url=file:///index1.html"];
 
     
     

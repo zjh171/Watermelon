@@ -26,12 +26,18 @@
     }else
     {
         */
+    
+    
     UIWebView * webView = [[UIWebView alloc]initWithFrame:self.view.bounds];
     webView.delegate=self;
     [self.view addSubview:webView];
 
     if ([self.url hasPrefix:@"file"]) {
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"index1" ofType:@"html"];
+        
+        NSString *fileName = [self.url stringByReplacingOccurrencesOfString:@"file:///" withString:@""];
+        fileName = [fileName stringByReplacingOccurrencesOfString:@".html" withString:@""];
+        
+        NSString *path = [[NSBundle mainBundle] pathForResource:fileName ofType:@"html"];
         NSURL *url = [NSURL fileURLWithPath:path];
         NSURLRequest* request = [NSURLRequest requestWithURL:url];//创建NSURLRequest
         [webView loadRequest:request];//加载
