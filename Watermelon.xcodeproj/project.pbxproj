@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6E42D741E667D5E004B2600 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E42D731E667D5E004B2600 /* WebKit.framework */; };
 		DEE953D21E6678A5004CB2F8 /* WMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953D11E6678A5004CB2F8 /* WMWebViewController.m */; };
 		DEEE03C61E6563CD00A0FAE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03C51E6563CD00A0FAE5 /* main.m */; };
 		DEEE03C91E6563CD00A0FAE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03C81E6563CD00A0FAE5 /* AppDelegate.m */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6E42D731E667D5E004B2600 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		DEE953D01E6678A5004CB2F8 /* WMWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWebViewController.h; sourceTree = "<group>"; };
 		DEE953D11E6678A5004CB2F8 /* WMWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWebViewController.m; sourceTree = "<group>"; };
 		DEEE03C11E6563CD00A0FAE5 /* Watermelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,17 +57,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E42D741E667D5E004B2600 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6E42D721E667D5E004B2600 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6E42D731E667D5E004B2600 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DEEE03B81E6563CD00A0FAE5 = {
 			isa = PBXGroup;
 			children = (
 				DEEE03C31E6563CD00A0FAE5 /* Watermelon */,
 				DEEE03C21E6563CD00A0FAE5 /* Products */,
+				A6E42D721E667D5E004B2600 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

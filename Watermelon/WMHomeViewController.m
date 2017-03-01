@@ -61,7 +61,8 @@
 
 - (IBAction)buttonClicked2:(id)sender {
     
-    [MDSRouter openingPath:@"hybrid://forward?param=\{\"topage\":\"kyson?url=https:\/\/www.baidu.com\",\"animate\":\"push\"\}"];
+//    [MDSRouter openingPath:@"hybrid://forward?param=\{\"topage\":\"kyson?url=https:\/\/www.baidu.com\",\"animate\":\"push\"\}"];
+    [MDSRouter openingPath:@"hybrid://webview?url=https:www.baidu.com"];
 
 }
 

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface WMWebViewController : UIViewController
-
+@property(nonatomic,copy)NSString *url;
 @end
