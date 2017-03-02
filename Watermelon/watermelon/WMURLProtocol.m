@@ -33,6 +33,10 @@ static NSString *URLProtocolHandledKey = @"URLProtocolHandledKey";
     if ([NSURLProtocol propertyForKey:URLProtocolHandledKey inRequest:request]) {
         return NO;
     }
+    NSString *urlString = request.URL.absoluteString;
+    if([urlString hasPrefix:@"png"] || [urlString hasSuffix:@"css"] || [urlString hasSuffix:@"js"] ){
+        return NO;
+    }
     
     return YES;
 }
@@ -55,11 +59,46 @@ static NSString *URLProtocolHandledKey = @"URLProtocolHandledKey";
     // 标记当前传入的Request已经被拦截处理过，防止在最开始又继续拦截处理
     [NSURLProtocol setProperty:@(YES) forKey:URLProtocolHandledKey inRequest:request];
     
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        
+        NSString *urlString = request.URL.absoluteString;
+
+        NSString *typeString = @"png";
+
+        id<NSURLProtocolClient> client = self.client;
+        
+        if ([urlString hasSuffix:@"png"] &&[typeString isEqualToString:@"png"]) {
+            
+            typeString = @"text/css";
+            typeString = @"image/png";
+
+
+            NSString *localUrl = [[NSBundle mainBundle] pathForResource:@"image" ofType:@"png"];
+            NSData *fileData = [NSData dataWithContentsOfFile:localUrl];
+            NSURL *url = [NSURL fileURLWithPath:localUrl];
+            long dataLength = fileData.length ?:0;
+            NSURLResponse *response = [[NSURLResponse alloc] initWithURL:url MIMEType:typeString expectedContentLength:dataLength textEncodingName:@"UTF-8"];
+            
+            [client URLProtocol:self didReceiveResponse:response cacheStoragePolicy:(NSURLCacheStorageNotAllowed)];
+            [client URLProtocol:self didLoadData:fileData];
+            [client URLProtocolDidFinishLoading:self];
+            
+            
+        }
+        
+        
+        
+    });
+    
+
+    
     //使用NSURLSession继续把重定向的request发送出去
     NSURLSessionConfiguration *config = [NSURLSessionConfiguration ephemeralSessionConfiguration];
     NSOperationQueue *mainQueue = [NSOperationQueue mainQueue];
     
     NSURLSession *session = [NSURLSession sessionWithConfiguration:config delegate:self delegateQueue:mainQueue];
+    self.session = session;
     
     NSURLSessionDataTask *task = [session dataTaskWithRequest:[self changeSinaToSohu:request]];
     
@@ -67,8 +106,8 @@ static NSString *URLProtocolHandledKey = @"URLProtocolHandledKey";
 }
 
 - (void)stopLoading {
-//    [self.connection cancel];
-//    self.connection = nil;
+    [self.session invalidateAndCancel];
+    self.session = nil;
 }
 
 
@@ -87,6 +126,9 @@ static NSString *URLProtocolHandledKey = @"URLProtocolHandledKey";
     if ([urlString hasPrefix:@"hybrid://forward"]) {
         [MDSRouter openingPath:urlString1];
     }else{
+        
+        
+        
         [[NSNotificationCenter defaultCenter] postNotificationName:@"1" object:urlString1];
     }
     
