@@ -66,6 +66,11 @@
 
 }
 
+
+- (IBAction)buttonClicked5:(id)sender {
+    [MDSRouter openingPath:@"hybrid://webview?url=file:///index3.html"];
+}
+
 -(UIWebView *)webView{
     if (!_webView) {
         _webView = [[UIWebView alloc] initWithFrame:self.view.frame];

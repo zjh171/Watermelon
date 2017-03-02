@@ -60,6 +60,17 @@
                 
             }
         }
+    }else if ([obj hasPrefix:@"hybrid://back?param="]){
+        obj = [obj stringByReplacingOccurrencesOfString:@"hybrid://back?param=" withString:@""];
+        NSDictionary *dict = [self.class __jsonObjectWithString:obj];
+        if ([dict isKindOfClass:[NSDictionary class]]) {
+            
+                
+            [self.navigationController popViewControllerAnimated:YES];
+            
+            
+        }
+
     }
     
     

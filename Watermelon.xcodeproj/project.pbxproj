@@ -19,6 +19,7 @@
 		DEE953F31E66D20C004CB2F8 /* MDSNavLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953F21E66D20C004CB2F8 /* MDSNavLeft.m */; };
 		DEE953F61E66D21F004CB2F8 /* MDSNavRight.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953F51E66D21F004CB2F8 /* MDSNavRight.m */; };
 		DEE953F91E66D232004CB2F8 /* MDSNavTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953F81E66D232004CB2F8 /* MDSNavTitle.m */; };
+		DEE953FB1E6831D2004CB2F8 /* index3.html in Resources */ = {isa = PBXBuildFile; fileRef = DEE953FA1E6831D2004CB2F8 /* index3.html */; };
 		DEEE03C61E6563CD00A0FAE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03C51E6563CD00A0FAE5 /* main.m */; };
 		DEEE03C91E6563CD00A0FAE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03C81E6563CD00A0FAE5 /* AppDelegate.m */; };
 		DEEE03CC1E6563CD00A0FAE5 /* WMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03CB1E6563CD00A0FAE5 /* WMHomeViewController.m */; };
@@ -53,6 +54,7 @@
 		DEE953F51E66D21F004CB2F8 /* MDSNavRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSNavRight.m; sourceTree = "<group>"; };
 		DEE953F71E66D232004CB2F8 /* MDSNavTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSNavTitle.h; sourceTree = "<group>"; };
 		DEE953F81E66D232004CB2F8 /* MDSNavTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSNavTitle.m; sourceTree = "<group>"; };
+		DEE953FA1E6831D2004CB2F8 /* index3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index3.html; sourceTree = "<group>"; };
 		DEEE03C11E6563CD00A0FAE5 /* Watermelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEE03C51E6563CD00A0FAE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEEE03C71E6563CD00A0FAE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		DEE953E21E66CA48004CB2F8 /* webapp */ = {
 			isa = PBXGroup;
 			children = (
+				DEE953FA1E6831D2004CB2F8 /* index3.html */,
 				DEE953EB1E66CB3A004CB2F8 /* index2.html */,
 				DEE953E31E66CA48004CB2F8 /* image.png */,
 				DEE953E41E66CA48004CB2F8 /* index1.css */,
@@ -258,6 +261,7 @@
 				DEEE03E91E65841800A0FAE5 /* MDSRouting.json in Resources */,
 				DEE953E71E66CA48004CB2F8 /* image.png in Resources */,
 				DEE953E91E66CA48004CB2F8 /* index1.html in Resources */,
+				DEE953FB1E6831D2004CB2F8 /* index3.html in Resources */,
 				DEE953EA1E66CA48004CB2F8 /* index1.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

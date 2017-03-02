@@ -11,3 +11,9 @@ function hello1(){
     window.location.href= 'hybrid://updateNavigationBar?param={"data":{"left":[{"tagName":"back","callBack":"head_back","icon":"xxx.png","buttonType ":2}],"right":[{"tagName":"search","callBack":"head_search","buttonText":"按钮文字","buttonType ":1,"buttonTextColor":"#CCCCCC "}],"title":{"title":"标题","titleColor":"#CCCCCC","background":"#DDDDDD"}},"errorCode":0,"msg":"success"}';
     
 }
+
+function hello2(){
+    // alert("hello");
+    window.location.href= 'hybrid://back?param={}';
+    
+}
