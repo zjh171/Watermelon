@@ -34,7 +34,7 @@ static NSString *URLProtocolHandledKey = @"URLProtocolHandledKey";
         return NO;
     }
     NSString *urlString = request.URL.absoluteString;
-    if([urlString hasPrefix:@"png"] || [urlString hasSuffix:@"css"] || [urlString hasSuffix:@"js"] ){
+    if([urlString hasPrefix:@"png"] || [urlString hasSuffix:@"css"] || [urlString hasSuffix:@"js"] || [urlString hasPrefix:@"html"]){
         return NO;
     }
     
