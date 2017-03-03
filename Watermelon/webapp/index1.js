@@ -17,3 +17,20 @@ function hello2(){
     window.location.href= 'hybrid://back?param={}';
     
 }
+
+function hello3(){
+    // alert("hello");
+    window.location.href= 'hybrid://getLocation?param={}';
+    
+}
+
+
+function hello4(){
+    // alert("hello");
+    window.location.href= 'hybrid://getNetWorkType?param={}';
+    
+}
+
+
+
+

@@ -64,6 +64,24 @@
                         <action selector="buttonClicked5:" destination="-1" eventType="touchUpInside" id="sj9-zG-dQU"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rzD-AQ-jbQ">
+                    <rect key="frame" x="44" y="260" width="184" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.057047560800000001" blue="0.1866749982" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="定位"/>
+                    <connections>
+                        <action selector="buttonClicked6:" destination="-1" eventType="touchUpInside" id="I30-Ig-N4N"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kJ7-OT-a1U">
+                    <rect key="frame" x="44" y="308" width="184" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.057047560800000001" blue="0.1866749982" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="获取手机网络信息"/>
+                    <connections>
+                        <action selector="buttonClicked7:" destination="-1" eventType="touchUpInside" id="qQ4-2r-TNL"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <point key="canvasLocation" x="34.5" y="155.5"/>

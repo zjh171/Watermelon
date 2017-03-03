@@ -72,8 +72,17 @@
 }
 
 
+- (IBAction)buttonClicked6:(id)sender {
+    
+    [MDSRouter openingPath:@"hybrid://webview?url=file:///index4.html"];
+
+}
 
 
+- (IBAction)buttonClicked7:(id)sender {
+    [MDSRouter openingPath:@"hybrid://webview?url=file:///index5.html"];
+
+}
 
 
 

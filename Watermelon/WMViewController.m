@@ -70,12 +70,18 @@
         obj = [obj stringByReplacingOccurrencesOfString:@"hybrid://back?param=" withString:@""];
         NSDictionary *dict = [self.class __jsonObjectWithString:obj];
         if ([dict isKindOfClass:[NSDictionary class]]) {
-            
-                
             [self.navigationController popViewControllerAnimated:YES];
-            
-            
         }
+    }else if ([obj hasPrefix:@"hybrid://getLocation?param="]){
+        //obj = [obj stringByReplacingOccurrencesOfString:@"hybrid://getLocation?param=" withString:@""];
+        //NSDictionary *dict = [self.class __jsonObjectWithString:obj];
+        
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"{data:{\"latitued\"：122.12，\"longitued\"：88.08，\"address\":\"xxxx\",\"province\":\"上海\",\"city\":\"上海市\",\"area\":\"虹口区\"},\"errorCode\":0,\"msg\":\“success\”}" delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+        [alert show];
+
+    }else if ([obj hasPrefix:@"hybrid://getNetWorkType?param="]){
+
+        //{data:{"isNetWork"：false,"netWorkStatus":"2g"},"errorCode":0,"msg":"success"}
 
     }
     
