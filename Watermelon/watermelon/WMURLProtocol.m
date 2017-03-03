@@ -127,8 +127,6 @@ static NSString *URLProtocolHandledKey = @"URLProtocolHandledKey";
         [MDSRouter openingPath:urlString1];
     }else{
         
-        
-        
         [[NSNotificationCenter defaultCenter] postNotificationName:@"1" object:urlString1];
     }
     

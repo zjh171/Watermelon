@@ -1,0 +1,20 @@
+{
+  "name": "Mongo",
+  "version": "0.0.1",
+  "summary": "米喜iOS网络框架 Mongo.",
+  "description": "米喜iOS网络框架Mongo",
+  "homepage": "http://192.168.10.212/zhujinhui/Mongo.git",
+  "license": "MIT",
+  "authors": {
+    "kyson": "zjh171@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "http://192.168.10.212/zhujinhui/Mongo.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "Mongo/Core/*",
+  "requires_arc": true
+}

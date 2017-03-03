@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F881BF2B120CBCEA96AFD43 /* libPods-Watermelon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9114016328333899A7B6BD /* libPods-Watermelon.a */; };
 		A6E42D741E667D5E004B2600 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E42D731E667D5E004B2600 /* WebKit.framework */; };
 		DEE953D21E6678A5004CB2F8 /* WMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953D11E6678A5004CB2F8 /* WMWebViewController.m */; };
 		DEE953E11E66BD84004CB2F8 /* WMActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953E01E66BD84004CB2F8 /* WMActionManager.m */; };
@@ -36,7 +37,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14054AF0942857E0499FF395 /* Pods-Watermelon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermelon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon.release.xcconfig"; sourceTree = "<group>"; };
+		9A9114016328333899A7B6BD /* libPods-Watermelon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Watermelon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E42D731E667D5E004B2600 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		AC5A478E37124C9ECB95B085 /* Pods-Watermelon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermelon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon.debug.xcconfig"; sourceTree = "<group>"; };
 		DEE953D01E6678A5004CB2F8 /* WMWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWebViewController.h; sourceTree = "<group>"; };
 		DEE953D11E6678A5004CB2F8 /* WMWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWebViewController.m; sourceTree = "<group>"; };
 		DEE953DF1E66BD84004CB2F8 /* WMActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMActionManager.h; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6E42D741E667D5E004B2600 /* WebKit.framework in Frameworks */,
+				2F881BF2B120CBCEA96AFD43 /* libPods-Watermelon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +100,18 @@
 			isa = PBXGroup;
 			children = (
 				A6E42D731E667D5E004B2600 /* WebKit.framework */,
+				9A9114016328333899A7B6BD /* libPods-Watermelon.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFBC8CE74BFEF7D52023BE0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC5A478E37124C9ECB95B085 /* Pods-Watermelon.debug.xcconfig */,
+				14054AF0942857E0499FF395 /* Pods-Watermelon.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		DEE953E21E66CA48004CB2F8 /* webapp */ = {
@@ -131,6 +146,7 @@
 				DEEE03C31E6563CD00A0FAE5 /* Watermelon */,
 				DEEE03C21E6563CD00A0FAE5 /* Products */,
 				A6E42D721E667D5E004B2600 /* Frameworks */,
+				AFBC8CE74BFEF7D52023BE0A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -201,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEEE03D81E6563CD00A0FAE5 /* Build configuration list for PBXNativeTarget "Watermelon" */;
 			buildPhases = (
+				1BAA4B2BB719B9907E4E4FDA /* [CP] Check Pods Manifest.lock */,
 				DEEE03BD1E6563CD00A0FAE5 /* Sources */,
 				DEEE03BE1E6563CD00A0FAE5 /* Frameworks */,
 				DEEE03BF1E6563CD00A0FAE5 /* Resources */,
+				0BA14CC2DF2E2B9A11119645 /* [CP] Embed Pods Frameworks */,
+				2C6480064021E04BA898EEB2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +286,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BA14CC2DF2E2B9A11119645 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BAA4B2BB719B9907E4E4FDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C6480064021E04BA898EEB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DEEE03BD1E6563CD00A0FAE5 /* Sources */ = {
@@ -394,6 +461,7 @@
 		};
 		DEEE03D91E6563CD00A0FAE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC5A478E37124C9ECB95B085 /* Pods-Watermelon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Watermelon/Info.plist;
@@ -405,6 +473,7 @@
 		};
 		DEEE03DA1E6563CD00A0FAE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14054AF0942857E0499FF395 /* Pods-Watermelon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Watermelon/Info.plist;

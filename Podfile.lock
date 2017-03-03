@@ -1,0 +1,29 @@
+PODS:
+  - Core (0.0.1)
+  - Mongo (0.0.1)
+
+DEPENDENCIES:
+  - Core (from `git@192.168.10.212:zhujinhui/Core.git`)
+  - Mongo (from `git@192.168.10.212:zhujinhui/Mongo.git`)
+
+EXTERNAL SOURCES:
+  Core:
+    :git: git@192.168.10.212:zhujinhui/Core.git
+  Mongo:
+    :git: git@192.168.10.212:zhujinhui/Mongo.git
+
+CHECKOUT OPTIONS:
+  Core:
+    :commit: b3b8962dc46b91fd932c5d0a2a4bb3c9dec81011
+    :git: git@192.168.10.212:zhujinhui/Core.git
+  Mongo:
+    :commit: 2cd15eacd73034e9a8c7b23cc9bd87c25fba1ca7
+    :git: git@192.168.10.212:zhujinhui/Mongo.git
+
+SPEC CHECKSUMS:
+  Core: 187141881996669266edbebf14f188098d2de4c0
+  Mongo: 44cc890a9b71e467f5fcbe69c426d0a792b60b3a
+
+PODFILE CHECKSUM: d04640ebf7401afd61cf1e605ad057239ba878cc
+
+COCOAPODS: 1.1.1
