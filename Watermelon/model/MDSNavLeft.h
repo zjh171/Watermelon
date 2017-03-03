@@ -6,9 +6,9 @@
 //  Copyright © 2017年 kyson. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <MDSModel.h>
 
-@interface MDSNavLeft : NSObject
+@interface MDSNavLeft : MDSModel
 
 @property (nonatomic, copy) NSString *buttonType;
 @property (nonatomic, copy) NSString *callBack;

@@ -6,10 +6,9 @@
 //  Copyright © 2017年 kyson. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <MDSModel.h>
 
-@interface MDSNavTitle : NSObject
-
+@interface MDSNavTitle : MDSModel
 
 @property (nonatomic, copy) NSString *background;
 @property (nonatomic, copy) NSString *title;

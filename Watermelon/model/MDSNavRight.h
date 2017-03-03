@@ -6,9 +6,9 @@
 //  Copyright © 2017年 kyson. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <MDSModel.h>
 
-@interface MDSNavRight : NSObject
+@interface MDSNavRight : MDSModel
 
 
 

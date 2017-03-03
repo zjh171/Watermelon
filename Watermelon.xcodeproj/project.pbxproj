@@ -21,6 +21,7 @@
 		DEE953F61E66D21F004CB2F8 /* MDSNavRight.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953F51E66D21F004CB2F8 /* MDSNavRight.m */; };
 		DEE953F91E66D232004CB2F8 /* MDSNavTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953F81E66D232004CB2F8 /* MDSNavTitle.m */; };
 		DEE953FB1E6831D2004CB2F8 /* index3.html in Resources */ = {isa = PBXBuildFile; fileRef = DEE953FA1E6831D2004CB2F8 /* index3.html */; };
+		DEE953FE1E691580004CB2F8 /* MDSUIHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953FD1E691580004CB2F8 /* MDSUIHeader.m */; };
 		DEEE03C61E6563CD00A0FAE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03C51E6563CD00A0FAE5 /* main.m */; };
 		DEEE03C91E6563CD00A0FAE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03C81E6563CD00A0FAE5 /* AppDelegate.m */; };
 		DEEE03CC1E6563CD00A0FAE5 /* WMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03CB1E6563CD00A0FAE5 /* WMHomeViewController.m */; };
@@ -59,6 +60,8 @@
 		DEE953F71E66D232004CB2F8 /* MDSNavTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSNavTitle.h; sourceTree = "<group>"; };
 		DEE953F81E66D232004CB2F8 /* MDSNavTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSNavTitle.m; sourceTree = "<group>"; };
 		DEE953FA1E6831D2004CB2F8 /* index3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index3.html; sourceTree = "<group>"; };
+		DEE953FC1E691580004CB2F8 /* MDSUIHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSUIHeader.h; sourceTree = "<group>"; };
+		DEE953FD1E691580004CB2F8 /* MDSUIHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSUIHeader.m; sourceTree = "<group>"; };
 		DEEE03C11E6563CD00A0FAE5 /* Watermelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEE03C51E6563CD00A0FAE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEEE03C71E6563CD00A0FAE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 				DEE953F51E66D21F004CB2F8 /* MDSNavRight.m */,
 				DEE953F71E66D232004CB2F8 /* MDSNavTitle.h */,
 				DEE953F81E66D232004CB2F8 /* MDSNavTitle.m */,
+				DEE953FC1E691580004CB2F8 /* MDSUIHeader.h */,
+				DEE953FD1E691580004CB2F8 /* MDSUIHeader.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -341,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEE953EF1E66CC6B004CB2F8 /* WMViewController.m in Sources */,
+				DEE953FE1E691580004CB2F8 /* MDSUIHeader.m in Sources */,
 				DEEE03CC1E6563CD00A0FAE5 /* WMHomeViewController.m in Sources */,
 				DEE953F61E66D21F004CB2F8 /* MDSNavRight.m in Sources */,
 				DEE953F91E66D232004CB2F8 /* MDSNavTitle.m in Sources */,
