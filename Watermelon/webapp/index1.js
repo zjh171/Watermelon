@@ -32,5 +32,12 @@ function hello4(){
 }
 
 
+function hello5(){
+    // alert("hello");
+    window.location.href= 'hybrid://getSystemInfo?param={}';
+    
+}
+
+
 
 
