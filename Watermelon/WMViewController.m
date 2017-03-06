@@ -83,6 +83,11 @@
 
         //{data:{"isNetWork"：false,"netWorkStatus":"2g"},"errorCode":0,"msg":"success"}
 
+    }else if([obj hasPrefix:@"hybrid://getSystemInfo?param="]){
+        //{data:{"model":"vivo x6s","deviceId"："AB24242532523cwdcw"，"width":1080, "height":1920}，"errorCode":0,"msg":"success"}
+        
+        
+
     }
     
     

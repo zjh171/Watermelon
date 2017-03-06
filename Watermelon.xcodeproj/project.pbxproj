@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2F881BF2B120CBCEA96AFD43 /* libPods-Watermelon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9114016328333899A7B6BD /* libPods-Watermelon.a */; };
 		A6E42D741E667D5E004B2600 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E42D731E667D5E004B2600 /* WebKit.framework */; };
+		DEBECEA91E6D397200FE91CA /* index6.html in Resources */ = {isa = PBXBuildFile; fileRef = DEBECEA81E6D397200FE91CA /* index6.html */; };
 		DEE953D21E6678A5004CB2F8 /* WMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953D11E6678A5004CB2F8 /* WMWebViewController.m */; };
 		DEE953E11E66BD84004CB2F8 /* WMActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953E01E66BD84004CB2F8 /* WMActionManager.m */; };
 		DEE953E71E66CA48004CB2F8 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = DEE953E31E66CA48004CB2F8 /* image.png */; };
@@ -44,6 +45,7 @@
 		9A9114016328333899A7B6BD /* libPods-Watermelon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Watermelon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E42D731E667D5E004B2600 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		AC5A478E37124C9ECB95B085 /* Pods-Watermelon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermelon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon.debug.xcconfig"; sourceTree = "<group>"; };
+		DEBECEA81E6D397200FE91CA /* index6.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index6.html; sourceTree = "<group>"; };
 		DEE953D01E6678A5004CB2F8 /* WMWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWebViewController.h; sourceTree = "<group>"; };
 		DEE953D11E6678A5004CB2F8 /* WMWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWebViewController.m; sourceTree = "<group>"; };
 		DEE953DF1E66BD84004CB2F8 /* WMActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMActionManager.h; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 		DEE953E21E66CA48004CB2F8 /* webapp */ = {
 			isa = PBXGroup;
 			children = (
+				DEBECEA81E6D397200FE91CA /* index6.html */,
 				DEE954021E695F91004CB2F8 /* index5.html */,
 				DEE954001E694A93004CB2F8 /* index4.html */,
 				DEE953FA1E6831D2004CB2F8 /* index3.html */,
@@ -286,6 +289,7 @@
 				DEE953E81E66CA48004CB2F8 /* index1.css in Resources */,
 				DEE954011E694A93004CB2F8 /* index4.html in Resources */,
 				DEEE03EF1E65867100A0FAE5 /* WMHomeViewController.xib in Resources */,
+				DEBECEA91E6D397200FE91CA /* index6.html in Resources */,
 				DEE954031E695F91004CB2F8 /* index5.html in Resources */,
 				DEEE03D11E6563CD00A0FAE5 /* Assets.xcassets in Resources */,
 				DEE953EC1E66CB3A004CB2F8 /* index2.html in Resources */,
