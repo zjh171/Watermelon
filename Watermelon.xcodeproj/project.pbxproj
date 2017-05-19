@@ -7,7 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FCA45451A369FD86B39D1AC /* libPods-Watermelon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6F2B3C019F58116C44EE6C /* libPods-Watermelon.a */; };
 		A6E42D741E667D5E004B2600 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E42D731E667D5E004B2600 /* WebKit.framework */; };
+		DE35238D1ECEE3940081F425 /* Watermelon.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35238C1ECEE3940081F425 /* Watermelon.m */; };
+		DE3523D31ECEE3F30081F425 /* MDSAlertViewButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523901ECEE3F30081F425 /* MDSAlertViewButtonModel.m */; };
+		DE3523D41ECEE3F30081F425 /* MDSAlertViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523921ECEE3F30081F425 /* MDSAlertViewModel.m */; };
+		DE3523D51ECEE3F30081F425 /* MDSImagePickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523941ECEE3F30081F425 /* MDSImagePickerModel.m */; };
+		DE3523D61ECEE3F30081F425 /* MDSNavLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523961ECEE3F30081F425 /* MDSNavLeft.m */; };
+		DE3523D71ECEE3F30081F425 /* MDSNavRight.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523981ECEE3F30081F425 /* MDSNavRight.m */; };
+		DE3523D81ECEE3F30081F425 /* MDSNavTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35239A1ECEE3F30081F425 /* MDSNavTitle.m */; };
+		DE3523D91ECEE3F30081F425 /* MDSUIHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35239C1ECEE3F30081F425 /* MDSUIHeader.m */; };
+		DE3523DA1ECEE3F30081F425 /* MDSUpdateLoginConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35239E1ECEE3F30081F425 /* MDSUpdateLoginConfigModel.m */; };
+		DE3523DB1ECEE3F30081F425 /* WMRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523A01ECEE3F30081F425 /* WMRouter.m */; };
+		DE3523DC1ECEE3F30081F425 /* MDJSCallManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523A41ECEE3F30081F425 /* MDJSCallManager.m */; };
+		DE3523DD1ECEE3F30081F425 /* NSURLRequest+HTTPBodyTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523A61ECEE3F30081F425 /* NSURLRequest+HTTPBodyTesting.m */; };
+		DE3523DE1ECEE3F30081F425 /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523A71ECEE3F30081F425 /* OHHTTPStubs+NSURLSessionConfiguration.m */; };
+		DE3523DF1ECEE3F30081F425 /* OHHTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523A91ECEE3F30081F425 /* OHHTTPStubs.m */; };
+		DE3523E01ECEE3F30081F425 /* OHHTTPStubsMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523AB1ECEE3F30081F425 /* OHHTTPStubsMethodSwizzling.m */; };
+		DE3523E11ECEE3F30081F425 /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523AD1ECEE3F30081F425 /* OHHTTPStubsResponse.m */; };
+		DE3523E21ECEE3F30081F425 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3523B21ECEE3F30081F425 /* aescrypt.c */; };
+		DE3523E31ECEE3F30081F425 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3523B31ECEE3F30081F425 /* aeskey.c */; };
+		DE3523E41ECEE3F30081F425 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3523B51ECEE3F30081F425 /* aestab.c */; };
+		DE3523E51ECEE3F30081F425 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3523B91ECEE3F30081F425 /* entropy.c */; };
+		DE3523E61ECEE3F30081F425 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3523BB1ECEE3F30081F425 /* fileenc.c */; };
+		DE3523E71ECEE3F30081F425 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3523BD1ECEE3F30081F425 /* hmac.c */; };
+		DE3523E81ECEE3F30081F425 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3523BF1ECEE3F30081F425 /* prng.c */; };
+		DE3523E91ECEE3F30081F425 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3523C11ECEE3F30081F425 /* pwd2key.c */; };
+		DE3523EA1ECEE3F30081F425 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3523C31ECEE3F30081F425 /* sha1.c */; };
+		DE3523EB1ECEE3F30081F425 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3523C81ECEE3F30081F425 /* ioapi.c */; };
+		DE3523EC1ECEE3F30081F425 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3523CA1ECEE3F30081F425 /* mztools.c */; };
+		DE3523ED1ECEE3F30081F425 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3523CC1ECEE3F30081F425 /* unzip.c */; };
+		DE3523EE1ECEE3F30081F425 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3523CE1ECEE3F30081F425 /* zip.c */; };
+		DE3523EF1ECEE3F30081F425 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523D11ECEE3F30081F425 /* SSZipArchive.m */; };
+		DE3523F21ECEE4AB0081F425 /* MDSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523F11ECEE4AB0081F425 /* MDSModel.m */; };
+		DE3523F51ECEE50C0081F425 /* WMXYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523F41ECEE50C0081F425 /* WMXYRouter.m */; };
+		DE3524031ECEE89F0081F425 /* MGJsonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523F81ECEE89F0081F425 /* MGJsonHandler.m */; };
+		DE3524041ECEE89F0081F425 /* MGMockAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523FA1ECEE89F0081F425 /* MGMockAccess.m */; };
+		DE3524051ECEE89F0081F425 /* MGNetwokResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3523FC1ECEE89F0081F425 /* MGNetwokResponse.m */; };
+		DE3524071ECEE89F0081F425 /* MGNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3524001ECEE89F0081F425 /* MGNetworkService.m */; };
+		DE3524081ECEE89F0081F425 /* MGProtocolHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3524021ECEE89F0081F425 /* MGProtocolHandler.m */; };
+		DE35240B1ECEE8B30081F425 /* MGServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35240A1ECEE8B30081F425 /* MGServiceResponse.m */; };
+		DE35240F1ECEE9130081F425 /* MGNetworkAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35240E1ECEE9130081F425 /* MGNetworkAccess.m */; };
+		DE3524111ECEEAA30081F425 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3524101ECEEAA30081F425 /* JavaScriptCore.framework */; };
 		DEBECEA91E6D397200FE91CA /* index6.html in Resources */ = {isa = PBXBuildFile; fileRef = DEBECEA81E6D397200FE91CA /* index6.html */; };
 		DEE953D21E6678A5004CB2F8 /* WMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953D11E6678A5004CB2F8 /* WMWebViewController.m */; };
 		DEE953E11E66BD84004CB2F8 /* WMActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953E01E66BD84004CB2F8 /* WMActionManager.m */; };
@@ -37,8 +78,95 @@
 
 /* Begin PBXFileReference section */
 		14054AF0942857E0499FF395 /* Pods-Watermelon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermelon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon.release.xcconfig"; sourceTree = "<group>"; };
+		8C6F2B3C019F58116C44EE6C /* libPods-Watermelon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Watermelon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E42D731E667D5E004B2600 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		AC5A478E37124C9ECB95B085 /* Pods-Watermelon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermelon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon.debug.xcconfig"; sourceTree = "<group>"; };
+		DE35238B1ECEE3940081F425 /* Watermelon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Watermelon.h; sourceTree = "<group>"; };
+		DE35238C1ECEE3940081F425 /* Watermelon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Watermelon.m; sourceTree = "<group>"; };
+		DE35238F1ECEE3F30081F425 /* MDSAlertViewButtonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSAlertViewButtonModel.h; sourceTree = "<group>"; };
+		DE3523901ECEE3F30081F425 /* MDSAlertViewButtonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSAlertViewButtonModel.m; sourceTree = "<group>"; };
+		DE3523911ECEE3F30081F425 /* MDSAlertViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSAlertViewModel.h; sourceTree = "<group>"; };
+		DE3523921ECEE3F30081F425 /* MDSAlertViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSAlertViewModel.m; sourceTree = "<group>"; };
+		DE3523931ECEE3F30081F425 /* MDSImagePickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSImagePickerModel.h; sourceTree = "<group>"; };
+		DE3523941ECEE3F30081F425 /* MDSImagePickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSImagePickerModel.m; sourceTree = "<group>"; };
+		DE3523951ECEE3F30081F425 /* MDSNavLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSNavLeft.h; sourceTree = "<group>"; };
+		DE3523961ECEE3F30081F425 /* MDSNavLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSNavLeft.m; sourceTree = "<group>"; };
+		DE3523971ECEE3F30081F425 /* MDSNavRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSNavRight.h; sourceTree = "<group>"; };
+		DE3523981ECEE3F30081F425 /* MDSNavRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSNavRight.m; sourceTree = "<group>"; };
+		DE3523991ECEE3F30081F425 /* MDSNavTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSNavTitle.h; sourceTree = "<group>"; };
+		DE35239A1ECEE3F30081F425 /* MDSNavTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSNavTitle.m; sourceTree = "<group>"; };
+		DE35239B1ECEE3F30081F425 /* MDSUIHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSUIHeader.h; sourceTree = "<group>"; };
+		DE35239C1ECEE3F30081F425 /* MDSUIHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSUIHeader.m; sourceTree = "<group>"; };
+		DE35239D1ECEE3F30081F425 /* MDSUpdateLoginConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSUpdateLoginConfigModel.h; sourceTree = "<group>"; };
+		DE35239E1ECEE3F30081F425 /* MDSUpdateLoginConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSUpdateLoginConfigModel.m; sourceTree = "<group>"; };
+		DE35239F1ECEE3F30081F425 /* WMRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMRouter.h; sourceTree = "<group>"; };
+		DE3523A01ECEE3F30081F425 /* WMRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMRouter.m; sourceTree = "<group>"; };
+		DE3523A21ECEE3F30081F425 /* Compatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compatibility.h; sourceTree = "<group>"; };
+		DE3523A31ECEE3F30081F425 /* MDJSCallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDJSCallManager.h; sourceTree = "<group>"; };
+		DE3523A41ECEE3F30081F425 /* MDJSCallManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDJSCallManager.m; sourceTree = "<group>"; };
+		DE3523A51ECEE3F30081F425 /* NSURLRequest+HTTPBodyTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+HTTPBodyTesting.h"; sourceTree = "<group>"; };
+		DE3523A61ECEE3F30081F425 /* NSURLRequest+HTTPBodyTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+HTTPBodyTesting.m"; sourceTree = "<group>"; };
+		DE3523A71ECEE3F30081F425 /* OHHTTPStubs+NSURLSessionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OHHTTPStubs+NSURLSessionConfiguration.m"; sourceTree = "<group>"; };
+		DE3523A81ECEE3F30081F425 /* OHHTTPStubs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHHTTPStubs.h; sourceTree = "<group>"; };
+		DE3523A91ECEE3F30081F425 /* OHHTTPStubs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHHTTPStubs.m; sourceTree = "<group>"; };
+		DE3523AA1ECEE3F30081F425 /* OHHTTPStubsMethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHHTTPStubsMethodSwizzling.h; sourceTree = "<group>"; };
+		DE3523AB1ECEE3F30081F425 /* OHHTTPStubsMethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHHTTPStubsMethodSwizzling.m; sourceTree = "<group>"; };
+		DE3523AC1ECEE3F30081F425 /* OHHTTPStubsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHHTTPStubsResponse.h; sourceTree = "<group>"; };
+		DE3523AD1ECEE3F30081F425 /* OHHTTPStubsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHHTTPStubsResponse.m; sourceTree = "<group>"; };
+		DE3523B01ECEE3F30081F425 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		DE3523B11ECEE3F30081F425 /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		DE3523B21ECEE3F30081F425 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		DE3523B31ECEE3F30081F425 /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		DE3523B41ECEE3F30081F425 /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		DE3523B51ECEE3F30081F425 /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		DE3523B61ECEE3F30081F425 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		DE3523B71ECEE3F30081F425 /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		DE3523B81ECEE3F30081F425 /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		DE3523B91ECEE3F30081F425 /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		DE3523BA1ECEE3F30081F425 /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		DE3523BB1ECEE3F30081F425 /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		DE3523BC1ECEE3F30081F425 /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		DE3523BD1ECEE3F30081F425 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		DE3523BE1ECEE3F30081F425 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		DE3523BF1ECEE3F30081F425 /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		DE3523C01ECEE3F30081F425 /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		DE3523C11ECEE3F30081F425 /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		DE3523C21ECEE3F30081F425 /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		DE3523C31ECEE3F30081F425 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		DE3523C41ECEE3F30081F425 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		DE3523C51ECEE3F30081F425 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		DE3523C71ECEE3F30081F425 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		DE3523C81ECEE3F30081F425 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		DE3523C91ECEE3F30081F425 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		DE3523CA1ECEE3F30081F425 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		DE3523CB1ECEE3F30081F425 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		DE3523CC1ECEE3F30081F425 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		DE3523CD1ECEE3F30081F425 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		DE3523CE1ECEE3F30081F425 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		DE3523CF1ECEE3F30081F425 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		DE3523D01ECEE3F30081F425 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		DE3523D11ECEE3F30081F425 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		DE3523D21ECEE3F30081F425 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		DE3523F01ECEE4AB0081F425 /* MDSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSModel.h; sourceTree = "<group>"; };
+		DE3523F11ECEE4AB0081F425 /* MDSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSModel.m; sourceTree = "<group>"; };
+		DE3523F31ECEE50C0081F425 /* WMXYRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMXYRouter.h; sourceTree = "<group>"; };
+		DE3523F41ECEE50C0081F425 /* WMXYRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMXYRouter.m; sourceTree = "<group>"; };
+		DE3523F71ECEE89F0081F425 /* MGJsonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJsonHandler.h; sourceTree = "<group>"; };
+		DE3523F81ECEE89F0081F425 /* MGJsonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGJsonHandler.m; sourceTree = "<group>"; };
+		DE3523F91ECEE89F0081F425 /* MGMockAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMockAccess.h; sourceTree = "<group>"; };
+		DE3523FA1ECEE89F0081F425 /* MGMockAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMockAccess.m; sourceTree = "<group>"; };
+		DE3523FB1ECEE89F0081F425 /* MGNetwokResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGNetwokResponse.h; sourceTree = "<group>"; };
+		DE3523FC1ECEE89F0081F425 /* MGNetwokResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGNetwokResponse.m; sourceTree = "<group>"; };
+		DE3523FF1ECEE89F0081F425 /* MGNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGNetworkService.h; sourceTree = "<group>"; };
+		DE3524001ECEE89F0081F425 /* MGNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGNetworkService.m; sourceTree = "<group>"; };
+		DE3524011ECEE89F0081F425 /* MGProtocolHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGProtocolHandler.h; sourceTree = "<group>"; };
+		DE3524021ECEE89F0081F425 /* MGProtocolHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGProtocolHandler.m; sourceTree = "<group>"; };
+		DE3524091ECEE8B30081F425 /* MGServiceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGServiceResponse.h; sourceTree = "<group>"; };
+		DE35240A1ECEE8B30081F425 /* MGServiceResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGServiceResponse.m; sourceTree = "<group>"; };
+		DE35240C1ECEE8CA0081F425 /* MGService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGService.h; sourceTree = "<group>"; };
+		DE35240D1ECEE9130081F425 /* MGNetworkAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGNetworkAccess.h; sourceTree = "<group>"; };
+		DE35240E1ECEE9130081F425 /* MGNetworkAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGNetworkAccess.m; sourceTree = "<group>"; };
+		DE3524101ECEEAA30081F425 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		DEBECEA81E6D397200FE91CA /* index6.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index6.html; sourceTree = "<group>"; };
 		DEE953D01E6678A5004CB2F8 /* WMWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWebViewController.h; sourceTree = "<group>"; };
 		DEE953D11E6678A5004CB2F8 /* WMWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWebViewController.m; sourceTree = "<group>"; };
@@ -83,7 +211,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3524111ECEEAA30081F425 /* JavaScriptCore.framework in Frameworks */,
 				A6E42D741E667D5E004B2600 /* WebKit.framework in Frameworks */,
+				0FCA45451A369FD86B39D1AC /* libPods-Watermelon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +223,9 @@
 		A6E42D721E667D5E004B2600 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE3524101ECEEAA30081F425 /* JavaScriptCore.framework */,
 				A6E42D731E667D5E004B2600 /* WebKit.framework */,
+				8C6F2B3C019F58116C44EE6C /* libPods-Watermelon.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -105,6 +237,131 @@
 				14054AF0942857E0499FF395 /* Pods-Watermelon.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE35238E1ECEE3F30081F425 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DE3523F01ECEE4AB0081F425 /* MDSModel.h */,
+				DE3523F11ECEE4AB0081F425 /* MDSModel.m */,
+				DE35238F1ECEE3F30081F425 /* MDSAlertViewButtonModel.h */,
+				DE3523901ECEE3F30081F425 /* MDSAlertViewButtonModel.m */,
+				DE3523911ECEE3F30081F425 /* MDSAlertViewModel.h */,
+				DE3523921ECEE3F30081F425 /* MDSAlertViewModel.m */,
+				DE3523931ECEE3F30081F425 /* MDSImagePickerModel.h */,
+				DE3523941ECEE3F30081F425 /* MDSImagePickerModel.m */,
+				DE3523951ECEE3F30081F425 /* MDSNavLeft.h */,
+				DE3523961ECEE3F30081F425 /* MDSNavLeft.m */,
+				DE3523971ECEE3F30081F425 /* MDSNavRight.h */,
+				DE3523981ECEE3F30081F425 /* MDSNavRight.m */,
+				DE3523991ECEE3F30081F425 /* MDSNavTitle.h */,
+				DE35239A1ECEE3F30081F425 /* MDSNavTitle.m */,
+				DE35239B1ECEE3F30081F425 /* MDSUIHeader.h */,
+				DE35239C1ECEE3F30081F425 /* MDSUIHeader.m */,
+				DE35239D1ECEE3F30081F425 /* MDSUpdateLoginConfigModel.h */,
+				DE35239E1ECEE3F30081F425 /* MDSUpdateLoginConfigModel.m */,
+				DE35239F1ECEE3F30081F425 /* WMRouter.h */,
+				DE3523A01ECEE3F30081F425 /* WMRouter.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DE3523A11ECEE3F30081F425 /* ohhttpstub */ = {
+			isa = PBXGroup;
+			children = (
+				DE3523A21ECEE3F30081F425 /* Compatibility.h */,
+				DE3523A31ECEE3F30081F425 /* MDJSCallManager.h */,
+				DE3523A41ECEE3F30081F425 /* MDJSCallManager.m */,
+				DE3523A51ECEE3F30081F425 /* NSURLRequest+HTTPBodyTesting.h */,
+				DE3523A61ECEE3F30081F425 /* NSURLRequest+HTTPBodyTesting.m */,
+				DE3523A71ECEE3F30081F425 /* OHHTTPStubs+NSURLSessionConfiguration.m */,
+				DE3523A81ECEE3F30081F425 /* OHHTTPStubs.h */,
+				DE3523A91ECEE3F30081F425 /* OHHTTPStubs.m */,
+				DE3523AA1ECEE3F30081F425 /* OHHTTPStubsMethodSwizzling.h */,
+				DE3523AB1ECEE3F30081F425 /* OHHTTPStubsMethodSwizzling.m */,
+				DE3523AC1ECEE3F30081F425 /* OHHTTPStubsResponse.h */,
+				DE3523AD1ECEE3F30081F425 /* OHHTTPStubsResponse.m */,
+			);
+			path = ohhttpstub;
+			sourceTree = "<group>";
+		};
+		DE3523AE1ECEE3F30081F425 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				DE3523AF1ECEE3F30081F425 /* aes */,
+				DE3523C51ECEE3F30081F425 /* Common.h */,
+				DE3523C61ECEE3F30081F425 /* minizip */,
+				DE3523D01ECEE3F30081F425 /* SSZipArchive.h */,
+				DE3523D11ECEE3F30081F425 /* SSZipArchive.m */,
+				DE3523D21ECEE3F30081F425 /* ZipArchive.h */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		DE3523AF1ECEE3F30081F425 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				DE3523B01ECEE3F30081F425 /* aes.h */,
+				DE3523B11ECEE3F30081F425 /* aes_via_ace.h */,
+				DE3523B21ECEE3F30081F425 /* aescrypt.c */,
+				DE3523B31ECEE3F30081F425 /* aeskey.c */,
+				DE3523B41ECEE3F30081F425 /* aesopt.h */,
+				DE3523B51ECEE3F30081F425 /* aestab.c */,
+				DE3523B61ECEE3F30081F425 /* aestab.h */,
+				DE3523B71ECEE3F30081F425 /* brg_endian.h */,
+				DE3523B81ECEE3F30081F425 /* brg_types.h */,
+				DE3523B91ECEE3F30081F425 /* entropy.c */,
+				DE3523BA1ECEE3F30081F425 /* entropy.h */,
+				DE3523BB1ECEE3F30081F425 /* fileenc.c */,
+				DE3523BC1ECEE3F30081F425 /* fileenc.h */,
+				DE3523BD1ECEE3F30081F425 /* hmac.c */,
+				DE3523BE1ECEE3F30081F425 /* hmac.h */,
+				DE3523BF1ECEE3F30081F425 /* prng.c */,
+				DE3523C01ECEE3F30081F425 /* prng.h */,
+				DE3523C11ECEE3F30081F425 /* pwd2key.c */,
+				DE3523C21ECEE3F30081F425 /* pwd2key.h */,
+				DE3523C31ECEE3F30081F425 /* sha1.c */,
+				DE3523C41ECEE3F30081F425 /* sha1.h */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		DE3523C61ECEE3F30081F425 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				DE3523C71ECEE3F30081F425 /* crypt.h */,
+				DE3523C81ECEE3F30081F425 /* ioapi.c */,
+				DE3523C91ECEE3F30081F425 /* ioapi.h */,
+				DE3523CA1ECEE3F30081F425 /* mztools.c */,
+				DE3523CB1ECEE3F30081F425 /* mztools.h */,
+				DE3523CC1ECEE3F30081F425 /* unzip.c */,
+				DE3523CD1ECEE3F30081F425 /* unzip.h */,
+				DE3523CE1ECEE3F30081F425 /* zip.c */,
+				DE3523CF1ECEE3F30081F425 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		DE3523F61ECEE87D0081F425 /* Mongo */ = {
+			isa = PBXGroup;
+			children = (
+				DE35240D1ECEE9130081F425 /* MGNetworkAccess.h */,
+				DE35240E1ECEE9130081F425 /* MGNetworkAccess.m */,
+				DE35240C1ECEE8CA0081F425 /* MGService.h */,
+				DE3524091ECEE8B30081F425 /* MGServiceResponse.h */,
+				DE35240A1ECEE8B30081F425 /* MGServiceResponse.m */,
+				DE3523F71ECEE89F0081F425 /* MGJsonHandler.h */,
+				DE3523F81ECEE89F0081F425 /* MGJsonHandler.m */,
+				DE3523F91ECEE89F0081F425 /* MGMockAccess.h */,
+				DE3523FA1ECEE89F0081F425 /* MGMockAccess.m */,
+				DE3523FB1ECEE89F0081F425 /* MGNetwokResponse.h */,
+				DE3523FC1ECEE89F0081F425 /* MGNetwokResponse.m */,
+				DE3523FF1ECEE89F0081F425 /* MGNetworkService.h */,
+				DE3524001ECEE89F0081F425 /* MGNetworkService.m */,
+				DE3524011ECEE89F0081F425 /* MGProtocolHandler.h */,
+				DE3524021ECEE89F0081F425 /* MGProtocolHandler.m */,
+			);
+			path = Mongo;
 			sourceTree = "<group>";
 		};
 		DEE953E21E66CA48004CB2F8 /* webapp */ = {
@@ -150,6 +407,8 @@
 				DEEE03C81E6563CD00A0FAE5 /* AppDelegate.m */,
 				DEEE03CA1E6563CD00A0FAE5 /* WMHomeViewController.h */,
 				DEEE03CB1E6563CD00A0FAE5 /* WMHomeViewController.m */,
+				DE35238B1ECEE3940081F425 /* Watermelon.h */,
+				DE35238C1ECEE3940081F425 /* Watermelon.m */,
 				DEEE03EE1E65867100A0FAE5 /* WMHomeViewController.xib */,
 				DEEE03D01E6563CD00A0FAE5 /* Assets.xcassets */,
 				DEEE03D21E6563CD00A0FAE5 /* LaunchScreen.storyboard */,
@@ -177,12 +436,18 @@
 		DEEE03DB1E65644F00A0FAE5 /* watermelon */ = {
 			isa = PBXGroup;
 			children = (
+				DE3523F61ECEE87D0081F425 /* Mongo */,
+				DE35238E1ECEE3F30081F425 /* model */,
+				DE3523A11ECEE3F30081F425 /* ohhttpstub */,
+				DE3523AE1ECEE3F30081F425 /* SSZipArchive */,
 				DEEE03E11E65841800A0FAE5 /* NSString+JKURLEncode.h */,
 				DEEE03E21E65841800A0FAE5 /* NSString+JKURLEncode.m */,
 				DEEE03E31E65841800A0FAE5 /* MDSRouting.json */,
 				DEEE03E41E65841800A0FAE5 /* MDSRouter.h */,
 				DEEE03E51E65841800A0FAE5 /* MDSRouter.m */,
 				DEEE03E61E65841800A0FAE5 /* XYRouter.h */,
+				DE3523F31ECEE50C0081F425 /* WMXYRouter.h */,
+				DE3523F41ECEE50C0081F425 /* WMXYRouter.m */,
 				DEEE03E71E65841800A0FAE5 /* XYRouter.m */,
 				DEEE03DC1E65648900A0FAE5 /* WMURLProtocol.h */,
 				DEEE03DD1E65648900A0FAE5 /* WMURLProtocol.m */,
@@ -199,9 +464,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEEE03D81E6563CD00A0FAE5 /* Build configuration list for PBXNativeTarget "Watermelon" */;
 			buildPhases = (
+				5B55589844C90CE21B62333F /* [CP] Check Pods Manifest.lock */,
 				DEEE03BD1E6563CD00A0FAE5 /* Sources */,
 				DEEE03BE1E6563CD00A0FAE5 /* Frameworks */,
 				DEEE03BF1E6563CD00A0FAE5 /* Resources */,
+				0F6C80275C18509C81E6B624 /* [CP] Embed Pods Frameworks */,
+				776132E394BDB91EAB31C228 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,7 +491,7 @@
 				TargetAttributes = {
 					DEEE03C01E6563CD00A0FAE5 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -269,21 +537,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F6C80275C18509C81E6B624 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B55589844C90CE21B62333F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		776132E394BDB91EAB31C228 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DEEE03BD1E6563CD00A0FAE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3523D91ECEE3F30081F425 /* MDSUIHeader.m in Sources */,
+				DE3523E51ECEE3F30081F425 /* entropy.c in Sources */,
+				DE3523E41ECEE3F30081F425 /* aestab.c in Sources */,
+				DE3523DA1ECEE3F30081F425 /* MDSUpdateLoginConfigModel.m in Sources */,
 				DEE953EF1E66CC6B004CB2F8 /* WMViewController.m in Sources */,
+				DE3523DC1ECEE3F30081F425 /* MDJSCallManager.m in Sources */,
 				DEEE03CC1E6563CD00A0FAE5 /* WMHomeViewController.m in Sources */,
+				DE3523DE1ECEE3F30081F425 /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */,
 				DEEE03E81E65841800A0FAE5 /* NSString+JKURLEncode.m in Sources */,
+				DE3523E01ECEE3F30081F425 /* OHHTTPStubsMethodSwizzling.m in Sources */,
+				DE35240F1ECEE9130081F425 /* MGNetworkAccess.m in Sources */,
 				DEEE03C91E6563CD00A0FAE5 /* AppDelegate.m in Sources */,
 				DEEE03EB1E65841800A0FAE5 /* XYRouter.m in Sources */,
+				DE3523EA1ECEE3F30081F425 /* sha1.c in Sources */,
+				DE3523DD1ECEE3F30081F425 /* NSURLRequest+HTTPBodyTesting.m in Sources */,
 				DEEE03C61E6563CD00A0FAE5 /* main.m in Sources */,
+				DE3523D41ECEE3F30081F425 /* MDSAlertViewModel.m in Sources */,
+				DE3523DB1ECEE3F30081F425 /* WMRouter.m in Sources */,
+				DE35240B1ECEE8B30081F425 /* MGServiceResponse.m in Sources */,
+				DE3523E61ECEE3F30081F425 /* fileenc.c in Sources */,
+				DE3524031ECEE89F0081F425 /* MGJsonHandler.m in Sources */,
 				DEEE03DE1E65648900A0FAE5 /* WMURLProtocol.m in Sources */,
 				DEEE03EA1E65841800A0FAE5 /* MDSRouter.m in Sources */,
+				DE3523E31ECEE3F30081F425 /* aeskey.c in Sources */,
 				DEE953D21E6678A5004CB2F8 /* WMWebViewController.m in Sources */,
+				DE3524041ECEE89F0081F425 /* MGMockAccess.m in Sources */,
+				DE3523EC1ECEE3F30081F425 /* mztools.c in Sources */,
+				DE3523D71ECEE3F30081F425 /* MDSNavRight.m in Sources */,
+				DE3523E11ECEE3F30081F425 /* OHHTTPStubsResponse.m in Sources */,
+				DE3523D81ECEE3F30081F425 /* MDSNavTitle.m in Sources */,
+				DE3523F51ECEE50C0081F425 /* WMXYRouter.m in Sources */,
+				DE3523E81ECEE3F30081F425 /* prng.c in Sources */,
+				DE3523DF1ECEE3F30081F425 /* OHHTTPStubs.m in Sources */,
+				DE3523E91ECEE3F30081F425 /* pwd2key.c in Sources */,
+				DE3523D31ECEE3F30081F425 /* MDSAlertViewButtonModel.m in Sources */,
+				DE3523F21ECEE4AB0081F425 /* MDSModel.m in Sources */,
+				DE3523ED1ECEE3F30081F425 /* unzip.c in Sources */,
+				DE3523D61ECEE3F30081F425 /* MDSNavLeft.m in Sources */,
+				DE3523E71ECEE3F30081F425 /* hmac.c in Sources */,
+				DE3523EF1ECEE3F30081F425 /* SSZipArchive.m in Sources */,
+				DE3524051ECEE89F0081F425 /* MGNetwokResponse.m in Sources */,
+				DE3523EE1ECEE3F30081F425 /* zip.c in Sources */,
+				DE3524081ECEE89F0081F425 /* MGProtocolHandler.m in Sources */,
+				DE35238D1ECEE3940081F425 /* Watermelon.m in Sources */,
+				DE3523EB1ECEE3F30081F425 /* ioapi.c in Sources */,
+				DE3523D51ECEE3F30081F425 /* MDSImagePickerModel.m in Sources */,
+				DE3524071ECEE89F0081F425 /* MGNetworkService.m in Sources */,
 				DEEE03F31E65887400A0FAE5 /* WMH5ViewController.m in Sources */,
+				DE3523E21ECEE3F30081F425 /* aescrypt.c in Sources */,
 				DEE953E11E66BD84004CB2F8 /* WMActionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,8 +750,10 @@
 			baseConfigurationReference = AC5A478E37124C9ECB95B085 /* Pods-Watermelon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Watermelon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.medishare.Watermelon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -407,6 +764,7 @@
 			baseConfigurationReference = 14054AF0942857E0499FF395 /* Pods-Watermelon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Watermelon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.medishare.Watermelon;
