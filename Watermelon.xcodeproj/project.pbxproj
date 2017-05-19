@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F881BF2B120CBCEA96AFD43 /* libPods-Watermelon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9114016328333899A7B6BD /* libPods-Watermelon.a */; };
 		A6E42D741E667D5E004B2600 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E42D731E667D5E004B2600 /* WebKit.framework */; };
 		DEBECEA91E6D397200FE91CA /* index6.html in Resources */ = {isa = PBXBuildFile; fileRef = DEBECEA81E6D397200FE91CA /* index6.html */; };
 		DEE953D21E6678A5004CB2F8 /* WMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953D11E6678A5004CB2F8 /* WMWebViewController.m */; };
@@ -18,11 +17,7 @@
 		DEE953EA1E66CA48004CB2F8 /* index1.js in Resources */ = {isa = PBXBuildFile; fileRef = DEE953E61E66CA48004CB2F8 /* index1.js */; };
 		DEE953EC1E66CB3A004CB2F8 /* index2.html in Resources */ = {isa = PBXBuildFile; fileRef = DEE953EB1E66CB3A004CB2F8 /* index2.html */; };
 		DEE953EF1E66CC6B004CB2F8 /* WMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953EE1E66CC6B004CB2F8 /* WMViewController.m */; };
-		DEE953F31E66D20C004CB2F8 /* MDSNavLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953F21E66D20C004CB2F8 /* MDSNavLeft.m */; };
-		DEE953F61E66D21F004CB2F8 /* MDSNavRight.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953F51E66D21F004CB2F8 /* MDSNavRight.m */; };
-		DEE953F91E66D232004CB2F8 /* MDSNavTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953F81E66D232004CB2F8 /* MDSNavTitle.m */; };
 		DEE953FB1E6831D2004CB2F8 /* index3.html in Resources */ = {isa = PBXBuildFile; fileRef = DEE953FA1E6831D2004CB2F8 /* index3.html */; };
-		DEE953FE1E691580004CB2F8 /* MDSUIHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE953FD1E691580004CB2F8 /* MDSUIHeader.m */; };
 		DEE954011E694A93004CB2F8 /* index4.html in Resources */ = {isa = PBXBuildFile; fileRef = DEE954001E694A93004CB2F8 /* index4.html */; };
 		DEE954031E695F91004CB2F8 /* index5.html in Resources */ = {isa = PBXBuildFile; fileRef = DEE954021E695F91004CB2F8 /* index5.html */; };
 		DEEE03C61E6563CD00A0FAE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE03C51E6563CD00A0FAE5 /* main.m */; };
@@ -42,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		14054AF0942857E0499FF395 /* Pods-Watermelon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermelon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon.release.xcconfig"; sourceTree = "<group>"; };
-		9A9114016328333899A7B6BD /* libPods-Watermelon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Watermelon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E42D731E667D5E004B2600 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		AC5A478E37124C9ECB95B085 /* Pods-Watermelon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermelon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon.debug.xcconfig"; sourceTree = "<group>"; };
 		DEBECEA81E6D397200FE91CA /* index6.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index6.html; sourceTree = "<group>"; };
@@ -57,15 +51,7 @@
 		DEE953EB1E66CB3A004CB2F8 /* index2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index2.html; sourceTree = "<group>"; };
 		DEE953ED1E66CC6B004CB2F8 /* WMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMViewController.h; sourceTree = "<group>"; };
 		DEE953EE1E66CC6B004CB2F8 /* WMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMViewController.m; sourceTree = "<group>"; };
-		DEE953F11E66D20C004CB2F8 /* MDSNavLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSNavLeft.h; sourceTree = "<group>"; };
-		DEE953F21E66D20C004CB2F8 /* MDSNavLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSNavLeft.m; sourceTree = "<group>"; };
-		DEE953F41E66D21F004CB2F8 /* MDSNavRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSNavRight.h; sourceTree = "<group>"; };
-		DEE953F51E66D21F004CB2F8 /* MDSNavRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSNavRight.m; sourceTree = "<group>"; };
-		DEE953F71E66D232004CB2F8 /* MDSNavTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSNavTitle.h; sourceTree = "<group>"; };
-		DEE953F81E66D232004CB2F8 /* MDSNavTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSNavTitle.m; sourceTree = "<group>"; };
 		DEE953FA1E6831D2004CB2F8 /* index3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index3.html; sourceTree = "<group>"; };
-		DEE953FC1E691580004CB2F8 /* MDSUIHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSUIHeader.h; sourceTree = "<group>"; };
-		DEE953FD1E691580004CB2F8 /* MDSUIHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSUIHeader.m; sourceTree = "<group>"; };
 		DEE954001E694A93004CB2F8 /* index4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index4.html; sourceTree = "<group>"; };
 		DEE954021E695F91004CB2F8 /* index5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index5.html; sourceTree = "<group>"; };
 		DEEE03C11E6563CD00A0FAE5 /* Watermelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +84,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6E42D741E667D5E004B2600 /* WebKit.framework in Frameworks */,
-				2F881BF2B120CBCEA96AFD43 /* libPods-Watermelon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				A6E42D731E667D5E004B2600 /* WebKit.framework */,
-				9A9114016328333899A7B6BD /* libPods-Watermelon.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,21 +123,6 @@
 			path = webapp;
 			sourceTree = "<group>";
 		};
-		DEE953F01E66D1C7004CB2F8 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				DEE953F11E66D20C004CB2F8 /* MDSNavLeft.h */,
-				DEE953F21E66D20C004CB2F8 /* MDSNavLeft.m */,
-				DEE953F41E66D21F004CB2F8 /* MDSNavRight.h */,
-				DEE953F51E66D21F004CB2F8 /* MDSNavRight.m */,
-				DEE953F71E66D232004CB2F8 /* MDSNavTitle.h */,
-				DEE953F81E66D232004CB2F8 /* MDSNavTitle.m */,
-				DEE953FC1E691580004CB2F8 /* MDSUIHeader.h */,
-				DEE953FD1E691580004CB2F8 /* MDSUIHeader.m */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
 		DEEE03B81E6563CD00A0FAE5 = {
 			isa = PBXGroup;
 			children = (
@@ -175,7 +144,6 @@
 		DEEE03C31E6563CD00A0FAE5 /* Watermelon */ = {
 			isa = PBXGroup;
 			children = (
-				DEE953F01E66D1C7004CB2F8 /* model */,
 				DEE953E21E66CA48004CB2F8 /* webapp */,
 				DEEE03DB1E65644F00A0FAE5 /* watermelon */,
 				DEEE03C71E6563CD00A0FAE5 /* AppDelegate.h */,
@@ -231,12 +199,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEEE03D81E6563CD00A0FAE5 /* Build configuration list for PBXNativeTarget "Watermelon" */;
 			buildPhases = (
-				1BAA4B2BB719B9907E4E4FDA /* [CP] Check Pods Manifest.lock */,
 				DEEE03BD1E6563CD00A0FAE5 /* Sources */,
 				DEEE03BE1E6563CD00A0FAE5 /* Frameworks */,
 				DEEE03BF1E6563CD00A0FAE5 /* Resources */,
-				0BA14CC2DF2E2B9A11119645 /* [CP] Embed Pods Frameworks */,
-				2C6480064021E04BA898EEB2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -304,66 +269,14 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		0BA14CC2DF2E2B9A11119645 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1BAA4B2BB719B9907E4E4FDA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		2C6480064021E04BA898EEB2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		DEEE03BD1E6563CD00A0FAE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DEE953EF1E66CC6B004CB2F8 /* WMViewController.m in Sources */,
-				DEE953FE1E691580004CB2F8 /* MDSUIHeader.m in Sources */,
 				DEEE03CC1E6563CD00A0FAE5 /* WMHomeViewController.m in Sources */,
-				DEE953F61E66D21F004CB2F8 /* MDSNavRight.m in Sources */,
-				DEE953F91E66D232004CB2F8 /* MDSNavTitle.m in Sources */,
 				DEEE03E81E65841800A0FAE5 /* NSString+JKURLEncode.m in Sources */,
-				DEE953F31E66D20C004CB2F8 /* MDSNavLeft.m in Sources */,
 				DEEE03C91E6563CD00A0FAE5 /* AppDelegate.m in Sources */,
 				DEEE03EB1E65841800A0FAE5 /* XYRouter.m in Sources */,
 				DEEE03C61E6563CD00A0FAE5 /* main.m in Sources */,

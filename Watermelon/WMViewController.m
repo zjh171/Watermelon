@@ -8,8 +8,6 @@
 
 #import "WMViewController.h"
 
-#import "MDSUIHeader.h"
-
 @interface WMViewController ()
 
 @end
@@ -40,56 +38,56 @@
 
 
 -(void)initWithNotificationCenter:(NSNotification *) notification {
-    NSString *obj = [notification object];
-    //设置标题
-    if([obj hasPrefix:@"hybrid://updateNavigationBar?param="]) {
-        
-        obj = [obj stringByReplacingOccurrencesOfString:@"hybrid://updateNavigationBar?param=" withString:@""];
-        
-        NSDictionary *dict = [self.class __jsonObjectWithString:obj];
-        
-        if ([dict isKindOfClass:[NSDictionary class]]) {
-            NSDictionary *dataDict = dict[@"data"];
-            
-            if ([dataDict isKindOfClass:[NSDictionary class]]) {
-                MDSUIHeader *header = [[MDSUIHeader alloc] init];
-                [header loadPropertiesWithData:dataDict];
-                self.title = header.title.title;
-                
-                SEL callBack = NSSelectorFromString(header.left.firstObject.callBack);
-                
-                UIBarButtonItem *leftBarBtn = [[UIBarButtonItem alloc]initWithTitle:@"d" style:UIBarButtonItemStylePlain target:self action:callBack];
-                [leftBarBtn setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIFont systemFontOfSize:16.f],NSFontAttributeName, nil] forState:UIControlStateNormal];
-                self.navigationItem.leftBarButtonItem = leftBarBtn;
-                
-                
-            }
-            
-        }
-    }else if ([obj hasPrefix:@"hybrid://back?param="]){
-        obj = [obj stringByReplacingOccurrencesOfString:@"hybrid://back?param=" withString:@""];
-        NSDictionary *dict = [self.class __jsonObjectWithString:obj];
-        if ([dict isKindOfClass:[NSDictionary class]]) {
-            [self.navigationController popViewControllerAnimated:YES];
-        }
-    }else if ([obj hasPrefix:@"hybrid://getLocation?param="]){
-        //obj = [obj stringByReplacingOccurrencesOfString:@"hybrid://getLocation?param=" withString:@""];
-        //NSDictionary *dict = [self.class __jsonObjectWithString:obj];
-        
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"{data:{\"latitued\"：122.12，\"longitued\"：88.08，\"address\":\"xxxx\",\"province\":\"上海\",\"city\":\"上海市\",\"area\":\"虹口区\"},\"errorCode\":0,\"msg\":\“success\”}" delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
-        [alert show];
-
-    }else if ([obj hasPrefix:@"hybrid://getNetWorkType?param="]){
-
-        //{data:{"isNetWork"：false,"netWorkStatus":"2g"},"errorCode":0,"msg":"success"}
-
-    }else if([obj hasPrefix:@"hybrid://getSystemInfo?param="]){
-        //{data:{"model":"vivo x6s","deviceId"："AB24242532523cwdcw"，"width":1080, "height":1920}，"errorCode":0,"msg":"success"}
-        
-        
-
-    }
-    
+//    NSString *obj = [notification object];
+//    //设置标题
+//    if([obj hasPrefix:@"hybrid://updateNavigationBar?param="]) {
+//        
+//        obj = [obj stringByReplacingOccurrencesOfString:@"hybrid://updateNavigationBar?param=" withString:@""];
+//        
+//        NSDictionary *dict = [self.class __jsonObjectWithString:obj];
+//        
+//        if ([dict isKindOfClass:[NSDictionary class]]) {
+//            NSDictionary *dataDict = dict[@"data"];
+//            
+//            if ([dataDict isKindOfClass:[NSDictionary class]]) {
+//                MDSUIHeader *header = [[MDSUIHeader alloc] init];
+//                [header loadPropertiesWithData:dataDict];
+//                self.title = header.title.title;
+//                
+//                SEL callBack = NSSelectorFromString(header.left.firstObject.callBack);
+//                
+//                UIBarButtonItem *leftBarBtn = [[UIBarButtonItem alloc]initWithTitle:@"d" style:UIBarButtonItemStylePlain target:self action:callBack];
+//                [leftBarBtn setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIFont systemFontOfSize:16.f],NSFontAttributeName, nil] forState:UIControlStateNormal];
+//                self.navigationItem.leftBarButtonItem = leftBarBtn;
+//                
+//                
+//            }
+//            
+//        }
+//    }else if ([obj hasPrefix:@"hybrid://back?param="]){
+//        obj = [obj stringByReplacingOccurrencesOfString:@"hybrid://back?param=" withString:@""];
+//        NSDictionary *dict = [self.class __jsonObjectWithString:obj];
+//        if ([dict isKindOfClass:[NSDictionary class]]) {
+//            [self.navigationController popViewControllerAnimated:YES];
+//        }
+//    }else if ([obj hasPrefix:@"hybrid://getLocation?param="]){
+//        //obj = [obj stringByReplacingOccurrencesOfString:@"hybrid://getLocation?param=" withString:@""];
+//        //NSDictionary *dict = [self.class __jsonObjectWithString:obj];
+//        
+//        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"{data:{\"latitued\"：122.12，\"longitued\"：88.08，\"address\":\"xxxx\",\"province\":\"上海\",\"city\":\"上海市\",\"area\":\"虹口区\"},\"errorCode\":0,\"msg\":\“success\”}" delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+//        [alert show];
+//
+//    }else if ([obj hasPrefix:@"hybrid://getNetWorkType?param="]){
+//
+//        //{data:{"isNetWork"：false,"netWorkStatus":"2g"},"errorCode":0,"msg":"success"}
+//
+//    }else if([obj hasPrefix:@"hybrid://getSystemInfo?param="]){
+//        //{data:{"model":"vivo x6s","deviceId"："AB24242532523cwdcw"，"width":1080, "height":1920}，"errorCode":0,"msg":"success"}
+//        
+//        
+//
+//    }
+//    
     
     
 }
